@@ -1,113 +1,67 @@
-** ComfyUI startup time: 2024-02-27 16:33:26.795285
-[2024-02-27 16:33] ** Platform: Windows
-[2024-02-27 16:33] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
-[2024-02-27 16:33] ** Python executable: C:\Python310\python.exe
-[2024-02-27 16:33] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
-[2024-02-27 16:33] 
+** ComfyUI startup time: 2024-02-28 11:34:17.160954
+[2024-02-28 11:34] ** Platform: Windows
+[2024-02-28 11:34] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2024-02-28 11:34] ** Python executable: C:\Users\konst\AppData\Local\Programs\Python\Python310\python.exe
+[2024-02-28 11:34] ** Log path: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\comfyui.log
+[2024-02-28 11:34] 
 Prestartup times for custom nodes:
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-02-27 16:33] 
-[2024-02-27 16:33] Total VRAM 24576 MB, total RAM 65451 MB
-[2024-02-27 16:33] Set vram state to: NORMAL_VRAM
-[2024-02-27 16:33] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
-[2024-02-27 16:33] VAE dtype: torch.bfloat16
-[2024-02-27 16:33] Using pytorch cross attention
-[2024-02-27 16:33] ### Loading: ComfyUI-Manager (V2.8.3)
-[2024-02-27 16:33] ### ComfyUI Revision: 2032 [eb8b353b] | Released on '2024-02-27'
-[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
-[2024-02-27 16:33] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
-[2024-02-27 16:33] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
-[2024-02-27 16:33] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-02-27 16:33] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-02-27 16:33] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-02-27 16:33] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-02-27 16:33] C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
-  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
-[2024-02-27 16:33] 
-[2024-02-27 16:33] [92m[rgthree] Loaded 35 exciting nodes.[0m
-[2024-02-27 16:33] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-02-27 16:33] 
-[2024-02-27 16:33] 
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\rgthree-comfy
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-02-28 11:34] 
+[2024-02-28 11:34] Total VRAM 24564 MB, total RAM 65415 MB
+[2024-02-28 11:34] Set vram state to: NORMAL_VRAM
+[2024-02-28 11:34] Device: cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync
+[2024-02-28 11:34] VAE dtype: torch.bfloat16
+[2024-02-28 11:34] Using pytorch cross attention
+[2024-02-28 11:34] ### Loading: ComfyUI-Manager (V1.25.3)
+[2024-02-28 11:34] ### ComfyUI Revision: 2033 [790e39a6] | Released on '2024-02-27'
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-02-28 11:34] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-02-28 11:34] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-02-28 11:34] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-02-28 11:34] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-02-28 11:34] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-28 11:34] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-28 11:34] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-02-28 11:34] 
+[2024-02-28 11:34] [32m[1m[rgthree] Loaded 22 exciting nodes.[0m
+[2024-02-28 11:34] [32m[rgthree] Optimizing ComfyUI recursive execution. [33mIf queueing and/or re-queueing seems broken, change "patch_recursive_execution" to false in rgthree_config.json [0m
+[2024-02-28 11:34] 
+[2024-02-28 11:34] 
 Import times for custom nodes:
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\tiled_ksampler
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-seamless-tiling
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
-[2024-02-27 16:33]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
-[2024-02-27 16:33]    0.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-02-27 16:33]    0.8 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux
-[2024-02-27 16:33] 
-[2024-02-27 16:33] Starting server
-[2024-02-27 16:33] 
-[2024-02-27 16:33] To see the GUI go to: http://127.0.0.1:8188
-[2024-02-27 16:33] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
-[2024-02-27 16:34] got prompt
-[2024-02-27 16:34] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
-[2024-02-27 16:34] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
-[2024-02-27 16:34] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
-[2024-02-27 16:34] model_type EPS
-[2024-02-27 16:34] adm 2816
-[2024-02-27 16:34] Using pytorch attention in VAE
-[2024-02-27 16:34] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
-[2024-02-27 16:34] Using pytorch attention in VAE
-[2024-02-27 16:34] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-02-27 16:34] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids', 'clip_g.transformer.text_model.embeddings.position_ids']
-[2024-02-27 16:34] Requested to load SDXLClipModel
-[2024-02-27 16:34] Loading 1 new model
-[2024-02-27 16:34] Requested to load SDXL
-[2024-02-27 16:34] Loading 1 new model
-[2024-02-27 16:34] 100%|█████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.63it/s]100%|█████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.58it/s]
-[2024-02-27 16:34] Requested to load AutoencoderKL
-[2024-02-27 16:34] Loading 1 new model
-[2024-02-27 16:34] model_type EPS
-[2024-02-27 16:34] adm 2816
-[2024-02-27 16:34] Using pytorch attention in VAE
-[2024-02-27 16:34] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
-[2024-02-27 16:34] Using pytorch attention in VAE
-[2024-02-27 16:34] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-02-27 16:34] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
-[2024-02-27 16:34] Requested to load SDXL
-[2024-02-27 16:34] Loading 1 new model
-[2024-02-27 16:35] 100%|█████████████████████████████████████████████████| 20/20 [00:07<00:00,  2.63it/s]100%|█████████████████████████████████████████████████| 20/20 [00:07<00:00,  2.59it/s]
-[2024-02-27 16:35] Prompt executed in 50.27 seconds
-[2024-02-27 16:38] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-02-27 16:38] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-02-27 16:39] Install custom node 'MTB Nodes'
-[2024-02-27 16:39] install: ['https://github.com/melMass/comfy_mtb']
-[2024-02-27 16:39] Download: git clone 'https://github.com/melMass/comfy_mtb'
-[2024-02-27 16:39] [!] 
-[2024-02-27 16:39] 0it [00:00, ?it/s]100%|██████████| 643.0/643.0 [00:00<00:00, 1095.20it/s]
-[2024-02-27 16:39] 100%|██████████| 643.0/643.0 [00:00<00:00, 1095.20it/s]
-[2024-02-27 16:39] 100%|██████████| 305.0/305.0 [00:00<00:00, 509.34it/s]
-[2024-02-27 16:39] 100%|██████████| 305.0/305.0 [00:00<00:00, 508.49it/s]
-[2024-02-27 16:39] 100%|██████████| 1459.0/1459.0 [00:00<00:00, 2084.62it/s]
-[2024-02-27 16:39] 100%|██████████| 1459.0/1459.0 [00:00<00:00, 2084.62it/s]
-[2024-02-27 16:39] 100%|██████████| 955.0/955.0 [00:00<00:00, 1340.42it/s]
-[2024-02-27 16:39] 100%|██████████| 955.0/955.0 [00:00<00:00, 1340.42it/s]
-[2024-02-27 16:39] 100%|██████████| 210.0/210.0 [00:01<00:00, 122.98it/s]
-[2024-02-27 16:39] 100%|██████████| 210.0/210.0 [00:01<00:00, 122.98it/s]
-[2024-02-27 16:39] 100%|██████████| 57.0/57.0 [00:01<00:00, 33.35it/s]
-[2024-02-27 16:39] 100%|██████████| 57.0/57.0 [00:01<00:00, 33.35it/s]
-[2024-02-27 16:39] 100%|██████████| 523.0/523.0 [00:02<00:00, 243.32it/s]
-[2024-02-27 16:39] 100%|██████████| 523.0/523.0 [00:02<00:00, 243.32it/s]
-[2024-02-27 16:39] 100%|██████████| 279.0/279.0 [00:02<00:00, 127.01it/s]
-[2024-02-27 16:39] 100%|██████████| 279.0/279.0 [00:02<00:00, 127.01it/s]
-[2024-02-27 16:39] 100%|██████████| 156.0/156.0 [00:22<00:00,  7.05it/s]
-[2024-02-27 16:39] 100%|██████████| 156.0/156.0 [00:22<00:00,  7.05it/s]
-[2024-02-27 16:39] 100%|██████████| 85.0/85.0 [00:23<00:00,  3.67it/s]
-[2024-02-27 16:39] 100%|██████████| 85.0/85.0 [00:23<00:00,  3.67it/s]
-[2024-02-27 16:39] 100%|██████████| 241.0/241.0 [00:23<00:00, 10.40it/s]
-[2024-02-27 16:39] 100%|██████████| 241.0/241.0 [00:23<00:00, 10.40it/s]
-[2024-02-27 16:39] 100%|██████████| 136.0/136.0 [00:23<00:00,  5.85it/s]
-[2024-02-27 16:39] 100%|██████████| 136.0/136.0 [00:23<00:00,  5.85it/s]
-[2024-02-27 16:39] 100%|██████████| 136.0/136.0 [00:23<00:00,  5.71it/s]
-[2024-02-27 16:39] [2024-02-27 16:39] Install: pip packages
-[2024-02-27 16:39] Install: install script
-[2024-02-27 16:39] Installation was successful.
-[2024-02-27 16:39] After restarting ComfyUI, please refresh the browser.
-[2024-02-27 16:39] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-02-27 16:39] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-02-27 16:40] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-02-27 16:40] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-02-27 16:41] 
-Stopped server
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI-seamless-tiling
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-02-28 11:34]    0.0 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\rgthree-comfy
+[2024-02-28 11:34]    0.4 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-02-28 11:34]    1.1 seconds: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-02-28 11:34] 
+[2024-02-28 11:34] Starting server
+[2024-02-28 11:34] 
+[2024-02-28 11:34] To see the GUI go to: http://127.0.0.1:8188
+[2024-02-28 11:34] FETCH DATA from: C:\Users\konst\OneDrive\Dokumente\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-28 11:34] Install custom node 'ComfyUI-Flowty-LDSR'
+[2024-02-28 11:34] install: ['https://github.com/flowtyone/ComfyUI-Flowty-LDSR']
+[2024-02-28 11:34] Download: git clone 'https://github.com/flowtyone/ComfyUI-Flowty-LDSR'
+[2024-02-28 11:34] [!] 
+[2024-02-28 11:34] 0it [00:00, ?it/s]100%|██████████| 66.0/66.0 [00:00<00:00, 107.02it/s]
+[2024-02-28 11:34] 100%|██████████| 66.0/66.0 [00:00<00:00, 107.02it/s]
+[2024-02-28 11:34] 100%|██████████| 51.0/51.0 [00:00<00:00, 56.95it/s]
+[2024-02-28 11:34] 100%|██████████| 51.0/51.0 [00:00<00:00, 56.95it/s]
+[2024-02-28 11:34] 100%|██████████| 66.0/66.0 [00:02<00:00, 23.50it/s]
+[2024-02-28 11:34] 100%|██████████| 66.0/66.0 [00:02<00:00, 23.50it/s]
+[2024-02-28 11:34] 100%|██████████| 17.0/17.0 [00:02<00:00,  6.03it/s]
+[2024-02-28 11:34] 100%|██████████| 17.0/17.0 [00:02<00:00,  6.03it/s]
+[2024-02-28 11:34] 100%|██████████| 17.0/17.0 [00:03<00:00,  5.02it/s]
+[2024-02-28 11:34] [2024-02-28 11:34] Install: pip packages
+[2024-02-28 11:34] Installation was successful.
+[2024-02-28 11:34] After restarting ComfyUI, please refresh the browser.
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-28 11:34] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
