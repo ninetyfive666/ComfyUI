@@ -1,40 +1,742 @@
-** ComfyUI startup time: 2024-03-04 11:57:08.529615
-[2024-03-04 11:57] ** Platform: Windows
-[2024-03-04 11:57] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
-[2024-03-04 11:57] ** Python executable: C:\Python310\python.exe
-[2024-03-04 11:57] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
-[2024-03-04 11:57] 
+** ComfyUI startup time: 2024-03-05 17:10:10.950383
+[2024-03-05 17:10] ** Platform: Windows
+[2024-03-05 17:10] ** Python version: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+[2024-03-05 17:10] ** Python executable: C:\Python310\python.exe
+[2024-03-05 17:10] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
+[2024-03-05 17:10] 
+#######################################################################
+[2024-03-05 17:10] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
+[2024-03-05 17:10] 
+[2024-03-05 17:10] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Python310\\python.exe', '-m', 'pip', 'install', 'insightface']
+[2024-03-05 17:10] 
+## Execute install/(de)activation script for '.'
+[!] WARNING: Ignoring invalid distribution -illow (c:\users\lightmapper\appdata\roaming\python\python310\site-packages)
+[2024-03-05 17:10] [!] WARNING: Ignoring invalid distribution -illow (c:\users\lightmapper\appdata\roaming\python\python310\site-packages)
+[2024-03-05 17:10] [2024-03-05 17:10]  Collecting insightface
+[2024-03-05 17:10]    Using cached insightface-0.7.3.tar.gz (439 kB)
+[2024-03-05 17:10]    Installing build dependencies: started
+[2024-03-05 17:10]    Installing build dependencies: finished with status 'done'
+[2024-03-05 17:10]    Getting requirements to build wheel: started
+[2024-03-05 17:10]    Getting requirements to build wheel: finished with status 'done'
+[2024-03-05 17:10]    Installing backend dependencies: started
+[2024-03-05 17:10]    Installing backend dependencies: finished with status 'done'
+[2024-03-05 17:10]    Preparing metadata (pyproject.toml): started
+[2024-03-05 17:10]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-03-05 17:10]           Collecting easydict (from insightface)
+[2024-03-05 17:10]    Obtaining dependency information for easydict from https://files.pythonhosted.org/packages/05/ec/fa6963f1198172c2b75c9ab6ecefb3045991f92f75f5eb41b6621b198123/easydict-1.13-py3-none-any.whl.metadata
+[2024-03-05 17:10]    Downloading easydict-1.13-py3-none-any.whl.metadata (4.2 kB)
+[2024-03-05 17:10]  Collecting cython (from insightface)
+[2024-03-05 17:10]    Obtaining dependency information for cython from https://files.pythonhosted.org/packages/18/15/fdc0c3552d20f9337b134a36d786da24e47998fc39f62cb61c1534f26123/Cython-3.0.8-cp310-cp310-win_amd64.whl.metadata
+[2024-03-05 17:10]    Using cached Cython-3.0.8-cp310-cp310-win_amd64.whl.metadata (3.2 kB)
+[2024-03-05 17:10]   Collecting prettytable (from insightface)
+[2024-03-05 17:10]    Obtaining dependency information for prettytable from https://files.pythonhosted.org/packages/3d/c4/a32f4bf44faf95accbbd5d7864ddef9e289749a8efbc3adaad4a4671779a/prettytable-3.10.0-py3-none-any.whl.metadata
+[2024-03-05 17:10]    Using cached prettytable-3.10.0-py3-none-any.whl.metadata (30 kB)
+[2024-03-05 17:10]                            Using cached Cython-3.0.8-cp310-cp310-win_amd64.whl (2.8 MB)
+[2024-03-05 17:10]  Downloading easydict-1.13-py3-none-any.whl (6.8 kB)
+[2024-03-05 17:10]  Using cached prettytable-3.10.0-py3-none-any.whl (28 kB)
+[2024-03-05 17:10]  Building wheels for collected packages: insightface
+[2024-03-05 17:10]    Building wheel for insightface (pyproject.toml): started
+[2024-03-05 17:10]    Building wheel for insightface (pyproject.toml): finished with status 'error'
+[2024-03-05 17:10] [!]   error: subprocess-exited-with-error
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   Building wheel for insightface (pyproject.toml) did not run successfully.
+[2024-03-05 17:10] [!]   exit code: 1
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   [215 lines of output]
+[2024-03-05 17:10] [!]   WARNING: pandoc not enabled
+[2024-03-05 17:10] [!]   running bdist_wheel
+[2024-03-05 17:10] [!]   running build
+[2024-03-05 17:10] [!]   running build_py
+[2024-03-05 17:10] [!]   creating build
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface
+[2024-03-05 17:10] [!]   copying insightface\__init__.py -> build\lib.win-amd64-cpython-310\insightface
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\app
+[2024-03-05 17:10] [!]   copying insightface\app\common.py -> build\lib.win-amd64-cpython-310\insightface\app
+[2024-03-05 17:10] [!]   copying insightface\app\face_analysis.py -> build\lib.win-amd64-cpython-310\insightface\app
+[2024-03-05 17:10] [!]   copying insightface\app\mask_renderer.py -> build\lib.win-amd64-cpython-310\insightface\app
+[2024-03-05 17:10] [!]   copying insightface\app\__init__.py -> build\lib.win-amd64-cpython-310\insightface\app
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\commands
+[2024-03-05 17:10] [!]   copying insightface\commands\insightface_cli.py -> build\lib.win-amd64-cpython-310\insightface\commands
+[2024-03-05 17:10] [!]   copying insightface\commands\model_download.py -> build\lib.win-amd64-cpython-310\insightface\commands
+[2024-03-05 17:10] [!]   copying insightface\commands\rec_add_mask_param.py -> build\lib.win-amd64-cpython-310\insightface\commands
+[2024-03-05 17:10] [!]   copying insightface\commands\__init__.py -> build\lib.win-amd64-cpython-310\insightface\commands
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\data
+[2024-03-05 17:10] [!]   copying insightface\data\image.py -> build\lib.win-amd64-cpython-310\insightface\data
+[2024-03-05 17:10] [!]   copying insightface\data\pickle_object.py -> build\lib.win-amd64-cpython-310\insightface\data
+[2024-03-05 17:10] [!]   copying insightface\data\rec_builder.py -> build\lib.win-amd64-cpython-310\insightface\data
+[2024-03-05 17:10] [!]   copying insightface\data\__init__.py -> build\lib.win-amd64-cpython-310\insightface\data
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\arcface_onnx.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\attribute.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\inswapper.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\landmark.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\model_store.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\model_zoo.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\retinaface.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\scrfd.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   copying insightface\model_zoo\__init__.py -> build\lib.win-amd64-cpython-310\insightface\model_zoo
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\__init__.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\constant.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\download.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\face_align.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\filesystem.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\storage.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\transform.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   copying insightface\utils\__init__.py -> build\lib.win-amd64-cpython-310\insightface\utils
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\__init__.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\io.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\light.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\render.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\transform.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\vis.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\__init__.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\io.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\light.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\render.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\transform.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\vis.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh_numpy\__init__.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh_numpy
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\morphable_model
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\morphable_model\fit.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\morphable_model
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\morphable_model\load.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\morphable_model
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\morphable_model\morphabel_model.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\morphable_model
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\morphable_model\__init__.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\morphable_model
+[2024-03-05 17:10] [!]   running egg_info
+[2024-03-05 17:10] [!]   writing insightface.egg-info\PKG-INFO
+[2024-03-05 17:10] [!]   writing dependency_links to insightface.egg-info\dependency_links.txt
+[2024-03-05 17:10] [!]   writing entry points to insightface.egg-info\entry_points.txt
+[2024-03-05 17:10] [!]   writing requirements to insightface.egg-info\requires.txt
+[2024-03-05 17:10] [!]   writing top-level names to insightface.egg-info\top_level.txt
+[2024-03-05 17:10] [!]   reading manifest file 'insightface.egg-info\SOURCES.txt'
+[2024-03-05 17:10] [!]   writing manifest file 'insightface.egg-info\SOURCES.txt'
+[2024-03-05 17:10] [!]   C:\Users\Lightmapper\AppData\Local\Temp\pip-build-env-vkmpjcj5\overlay\Lib\site-packages\setuptools\command\build_py.py:207: _Warning: Package 'insightface.thirdparty.face3d.mesh.cython' is absent from the `packages` configuration.
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           # Package would be ignored #
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           Python recognizes 'insightface.thirdparty.face3d.mesh.cython' as an importable package[^1],
+[2024-03-05 17:10] [!]           but it is absent from setuptools' `packages` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           This leads to an ambiguous overall configuration. If you want to distribute this
+[2024-03-05 17:10] [!]           package, please make sure that 'insightface.thirdparty.face3d.mesh.cython' is explicitly added
+[2024-03-05 17:10] [!]           to the `packages` configuration field.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           Alternatively, you can also rely on setuptools' discovery methods
+[2024-03-05 17:10] [!]           (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[2024-03-05 17:10] [!]           instead of `find_packages(...)`/`find:`).
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package discovery" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           If you don't want 'insightface.thirdparty.face3d.mesh.cython' to be distributed and are
+[2024-03-05 17:10] [!]           already explicitly excluding 'insightface.thirdparty.face3d.mesh.cython' via
+[2024-03-05 17:10] [!]           `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+[2024-03-05 17:10] [!]           you can try to use `exclude_package_data`, or `include-package-data=False` in
+[2024-03-05 17:10] [!]           combination with a more fine grained `package-data` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package data files" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           [^1]: For Python, any directory (with suitable naming) can be imported,
+[2024-03-05 17:10] [!]                 even if it does not contain any `.py` files.
+[2024-03-05 17:10] [!]                 On the other hand, currently there is no concept of package data
+[2024-03-05 17:10] [!]                 directory, all directories are treated like packages.
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]     check.warn(importable)
+[2024-03-05 17:10] [!]   C:\Users\Lightmapper\AppData\Local\Temp\pip-build-env-vkmpjcj5\overlay\Lib\site-packages\setuptools\command\build_py.py:207: _Warning: Package 'insightface.data.images' is absent from the `packages` configuration.
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           # Package would be ignored #
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           Python recognizes 'insightface.data.images' as an importable package[^1],
+[2024-03-05 17:10] [!]           but it is absent from setuptools' `packages` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           This leads to an ambiguous overall configuration. If you want to distribute this
+[2024-03-05 17:10] [!]           package, please make sure that 'insightface.data.images' is explicitly added
+[2024-03-05 17:10] [!]           to the `packages` configuration field.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           Alternatively, you can also rely on setuptools' discovery methods
+[2024-03-05 17:10] [!]           (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[2024-03-05 17:10] [!]           instead of `find_packages(...)`/`find:`).
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package discovery" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           If you don't want 'insightface.data.images' to be distributed and are
+[2024-03-05 17:10] [!]           already explicitly excluding 'insightface.data.images' via
+[2024-03-05 17:10] [!]           `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+[2024-03-05 17:10] [!]           you can try to use `exclude_package_data`, or `include-package-data=False` in
+[2024-03-05 17:10] [!]           combination with a more fine grained `package-data` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package data files" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10]  [!]Failed to build insightface
+ [2024-03-05 17:10]   
+[2024-03-05 17:10] [!]           [^1]: For Python, any directory (with suitable naming) can be imported,
+[2024-03-05 17:10] [!]                 even if it does not contain any `.py` files.
+[2024-03-05 17:10] [!]                 On the other hand, currently there is no concept of package data
+[2024-03-05 17:10] [!]                 directory, all directories are treated like packages.
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]     check.warn(importable)
+[2024-03-05 17:10] [!]   C:\Users\Lightmapper\AppData\Local\Temp\pip-build-env-vkmpjcj5\overlay\Lib\site-packages\setuptools\command\build_py.py:207: _Warning: Package 'insightface.data.objects' is absent from the `packages` configuration.
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           # Package would be ignored #
+[2024-03-05 17:10] [!]           ############################
+[2024-03-05 17:10] [!]           Python recognizes 'insightface.data.objects' as an importable package[^1],
+[2024-03-05 17:10] [!]           but it is absent from setuptools' `packages` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           This leads to an ambiguous overall configuration. If you want to distribute this
+[2024-03-05 17:10] [!]           package, please make sure that 'insightface.data.objects' is explicitly added
+[2024-03-05 17:10] [!]           to the `packages` configuration field.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           Alternatively, you can also rely on setuptools' discovery methods
+[2024-03-05 17:10] [!]           (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[2024-03-05 17:10] [!]           instead of `find_packages(...)`/`find:`).
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package discovery" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           If you don't want 'insightface.data.objects' to be distributed and are
+[2024-03-05 17:10] [!]           already explicitly excluding 'insightface.data.objects' via
+[2024-03-05 17:10] [!]           `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+[2024-03-05 17:10] [!]           you can try to use `exclude_package_data`, or `include-package-data=False` in
+[2024-03-05 17:10] [!]           combination with a more fine grained `package-data` configuration.
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           You can read more about "package data files" on setuptools documentation page:
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]           [^1]: For Python, any directory (with suitable naming) can be imported,
+[2024-03-05 17:10] [!]                 even if it does not contain any `.py` files.
+[2024-03-05 17:10] [!]                 On the other hand, currently there is no concept of package data
+[2024-03-05 17:10] [!]                 directory, all directories are treated like packages.
+[2024-03-05 17:10] [!]           ********************************************************************************
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   !!
+[2024-03-05 17:10] [!]     check.warn(importable)
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core.cpp -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core.h -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core_cython.cpp -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\Tom_Hanks_54745.png -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\mask_black.jpg -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\mask_blue.jpg -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\mask_green.jpg -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\mask_white.jpg -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   copying insightface\data\images\t1.jpg -> build\lib.win-amd64-cpython-310\insightface\data\images
+[2024-03-05 17:10] [!]   creating build\lib.win-amd64-cpython-310\insightface\data\objects
+[2024-03-05 17:10] [!]   copying insightface\data\objects\meanshape_68.pkl -> build\lib.win-amd64-cpython-310\insightface\data\objects
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core_cython.c -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core_cython.cpp -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\mesh_core_cython.pyx -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   copying insightface\thirdparty\face3d\mesh\cython\setup.py -> build\lib.win-amd64-cpython-310\insightface\thirdparty\face3d\mesh\cython
+[2024-03-05 17:10] [!]   running build_ext
+[2024-03-05 17:10] [!]   building 'insightface.thirdparty.face3d.mesh.cython.mesh_core_cython' extension
+[2024-03-05 17:10] [!]   error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+[2024-03-05 17:10] [!]   [end of output]
+[2024-03-05 17:10] [!]   
+[2024-03-05 17:10] [!]   note: This error originates from a subprocess, and is likely not a problem with pip.
+[2024-03-05 17:10] [!]   ERROR: Failed building wheel for insightface
+[2024-03-05 17:10] [!] ERROR: Could not build wheels for insightface, which is required to install pyproject.toml-based projects
+[2024-03-05 17:10] [!] WARNING: Ignoring invalid distribution -illow (c:\users\lightmapper\appdata\roaming\python\python310\site-packages)
+[2024-03-05 17:10] [!] 
+[2024-03-05 17:10] [!] [notice] A new release of pip is available: 23.2.1 -> 24.0
+[2024-03-05 17:10] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-03-05 17:10] install/(de)activation script failed: .
+[2024-03-05 17:10] 
+[ComfyUI-Manager] Startup script completed.
+[2024-03-05 17:10] #######################################################################
+[2024-03-05 17:10] 
+[2024-03-05 17:10] 
 Prestartup times for custom nodes:
-[2024-03-04 11:57]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
-[2024-03-04 11:57]    0.1 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-03-04 11:57] 
-[2024-03-04 11:57] Total VRAM 24576 MB, total RAM 65451 MB
-[2024-03-04 11:57] Set vram state to: NORMAL_VRAM
-[2024-03-04 11:57] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
-[2024-03-04 11:57] VAE dtype: torch.bfloat16
-[2024-03-04 11:57] Using pytorch cross attention
-[2024-03-04 11:57] ### Loading: ComfyUI-Manager (V2.8.3)
-[2024-03-04 11:57] ### ComfyUI Revision: 2034 [a4555833] | Released on '2024-02-28'
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
+[2024-03-05 17:10]   17.7 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-05 17:10] 
+[2024-03-05 17:10] Total VRAM 24576 MB, total RAM 65451 MB
+[2024-03-05 17:10] Set vram state to: NORMAL_VRAM
+[2024-03-05 17:10] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2024-03-05 17:10] VAE dtype: torch.bfloat16
+[2024-03-05 17:10] Using pytorch cross attention
+[2024-03-05 17:10] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-05 17:10] ### ComfyUI Revision: 2035 [0f767172] | Released on '2024-03-04'
+[2024-03-05 17:10] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-05 17:10] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-05 17:10] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-05 17:10] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-05 17:10] no module 'xformers'. Processing without...
+[2024-03-05 17:10] no module 'xformers'. Processing without...
 [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
-[2024-03-04 11:57] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
-[2024-03-04 11:57] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
-[2024-03-04 11:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-03-04 11:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-03-04 11:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-03-04 11:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-03-04 11:57] 
-[2024-03-04 11:57] [92m[rgthree] Loaded 35 exciting nodes.[0m
-[2024-03-04 11:57] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
-[2024-03-04 11:57] 
-[2024-03-04 11:57] 
+[2024-03-05 17:10] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-03-05 17:10] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-03-05 17:10] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-03-05 17:10] 
+[2024-03-05 17:10] [92m[rgthree] Loaded 35 magnificent nodes.[0m
+[2024-03-05 17:10] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-03-05 17:10] 
+[2024-03-05 17:10] 
 Import times for custom nodes:
-[2024-03-04 11:57]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-seamless-tiling
-[2024-03-04 11:57]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
-[2024-03-04 11:57]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
-[2024-03-04 11:57]    0.1 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Flowty-LDSR
-[2024-03-04 11:57]    0.4 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-03-04 11:57]    1.7 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux
-[2024-03-04 11:57] 
-[2024-03-04 11:57] Starting server
-[2024-03-04 11:57] 
-[2024-03-04 11:57] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-seamless-tiling
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\rgthree-comfy
+[2024-03-05 17:10]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Flowty-LDSR
+[2024-03-05 17:10]    0.1 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-03-05 17:10]    0.2 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-05 17:10]    0.7 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-03-05 17:10]    1.2 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SUPIR
+[2024-03-05 17:10] 
+[2024-03-05 17:10] Starting server
+[2024-03-05 17:10] 
+[2024-03-05 17:10] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-05 17:13] got prompt
+[2024-03-05 17:13] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:13] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-03-05 17:13] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-03-05 17:13] model_type EPS
+[2024-03-05 17:13] adm 2816
+[2024-03-05 17:13] Using pytorch attention in VAE
+[2024-03-05 17:13] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-05 17:13] Using pytorch attention in VAE
+[2024-03-05 17:14] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-05 17:14] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
+[2024-03-05 17:14] Requested to load SDXLClipModel
+[2024-03-05 17:14] Loading 1 new model
+[2024-03-05 17:15] Selecting patches ...
+[2024-03-05 17:15] Resulting depthmap resolution will be : (1024, 2048)
+[2024-03-05 17:15] Patches to process: 5
+[2024-03-05 17:15] 	 Processing patch 0 / 4 | [  0   0 783 783]
+[2024-03-05 17:15] 	 Processing patch 1 / 4 | [294   0 783 783]
+[2024-03-05 17:15] 	 Processing patch 2 / 4 | [587   0 783 783]
+[2024-03-05 17:15] 	 Processing patch 3 / 4 | [881   0 783 783]
+[2024-03-05 17:15] 	 Processing patch 4 / 4 | [1174    0  783  783]
+[2024-03-05 17:15] Requested to load SDXL
+[2024-03-05 17:15] Loading 1 new model
+[2024-03-05 17:17] 100%|█████████████████████████████████████████████████████████| 60/60 [01:24<00:00,  1.30it/s]100%|█████████████████████████████████████████████████████████| 60/60 [01:24<00:00,  1.42s/it]
+[2024-03-05 17:17] Requested to load AutoencoderKL
+[2024-03-05 17:17] Loading 1 new model
+[2024-03-05 17:17] model_type EPS
+[2024-03-05 17:17] adm 2816
+[2024-03-05 17:17] Using pytorch attention in VAE
+[2024-03-05 17:17] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-05 17:17] Using pytorch attention in VAE
+[2024-03-05 17:17] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-05 17:17] clip unexpected: ['clip_l.transformer.text_model.embeddings.position_ids']
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_in.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_in.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_in.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_out.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_out.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_proj_out.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.alpha
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.lora_down.weight
+[2024-03-05 17:17] lora key not loaded lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.lora_up.weight
+[2024-03-05 17:17] Requested to load SDXLClipModel
+[2024-03-05 17:17] Loading 1 new model
+[2024-03-05 17:17] Requested to load SDXL
+[2024-03-05 17:17] Loading 1 new model
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.7.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.7.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.8.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.input_blocks.8.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.middle_block.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.middle_block.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2024-03-05 17:17] ERROR diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2024-03-05 17:18] 100%|█████████████████████████████████████████████████████████| 30/30 [00:32<00:00,  1.49it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:32<00:00,  1.09s/it]
+[2024-03-05 17:18] Requested to load AutoencoderKL
+[2024-03-05 17:18] Loading 1 new model
+[2024-03-05 17:18] Prompt executed in 277.74 seconds
+[2024-03-05 17:28] got prompt
+[2024-03-05 17:28] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:29] 100%|█████████████████████████████████████████████████████████| 60/60 [00:49<00:00,  1.35it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:49<00:00,  1.22it/s]
+[2024-03-05 17:29] got prompt
+[2024-03-05 17:29] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.52it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.55it/s]
+[2024-03-05 17:29] Prompt executed in 71.82 seconds
+[2024-03-05 17:29] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:30] 100%|█████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.30it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.27it/s]
+[2024-03-05 17:30] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.55it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.52it/s]
+[2024-03-05 17:30] Prompt executed in 69.73 seconds
+[2024-03-05 17:31] got prompt
+[2024-03-05 17:31] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:32] 100%|█████████████████████████████████████████████████████████| 60/60 [00:52<00:00,  1.00s/it]100%|█████████████████████████████████████████████████████████| 60/60 [00:52<00:00,  1.15it/s]
+[2024-03-05 17:32] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.56it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.54it/s]
+[2024-03-05 17:32] Prompt executed in 75.17 seconds
+[2024-03-05 17:32] got prompt
+[2024-03-05 17:32] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:33] 100%|█████████████████████████████████████████████████████████| 60/60 [00:35<00:00,  1.67it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:35<00:00,  1.67it/s]
+[2024-03-05 17:33] got prompt
+[2024-03-05 17:33] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.62it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.57it/s]
+[2024-03-05 17:33] Prompt executed in 58.01 seconds
+[2024-03-05 17:33] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:34] 100%|█████████████████████████████████████████████████████████| 60/60 [00:40<00:00,  1.69it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:40<00:00,  1.50it/s]
+[2024-03-05 17:34] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.53it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.55it/s]
+[2024-03-05 17:34] Prompt executed in 72.92 seconds
+[2024-03-05 17:34] got prompt
+[2024-03-05 17:34] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:35] 100%|█████████████████████████████████████████████████████████| 60/60 [00:39<00:00,  1.77it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:39<00:00,  1.52it/s]
+[2024-03-05 17:36] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.52it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.55it/s]
+[2024-03-05 17:36] Prompt executed in 73.38 seconds
+[2024-03-05 17:36] got prompt
+[2024-03-05 17:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:36] 100%|█████████████████████████████████████████████████████████| 60/60 [00:40<00:00,  1.27it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:40<00:00,  1.47it/s]
+[2024-03-05 17:37] 100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.63it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:19<00:00,  1.57it/s]
+[2024-03-05 17:37] Prompt executed in 63.40 seconds
+[2024-03-05 17:37] got prompt
+[2024-03-05 17:37] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:38] 100%|█████████████████████████████████████████████████████████| 60/60 [00:45<00:00,  1.06it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:45<00:00,  1.31it/s]
+[2024-03-05 17:38] 100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.61it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.60it/s]
+[2024-03-05 17:38] Prompt executed in 68.53 seconds
+[2024-03-05 17:39] got prompt
+[2024-03-05 17:39] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:40] 100%|█████████████████████████████████████████████████████████| 60/60 [00:52<00:00,  1.17s/it]100%|█████████████████████████████████████████████████████████| 60/60 [00:52<00:00,  1.14it/s]
+[2024-03-05 17:40] 100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.64it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.60it/s]
+[2024-03-05 17:40] Prompt executed in 75.70 seconds
+[2024-03-05 17:42] got prompt
+[2024-03-05 17:42] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-05 17:42] 100%|█████████████████████████████████████████████████████████| 60/60 [00:39<00:00,  1.34it/s]100%|█████████████████████████████████████████████████████████| 60/60 [00:39<00:00,  1.52it/s]
+[2024-03-05 17:43] 100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.62it/s]100%|█████████████████████████████████████████████████████████| 30/30 [00:18<00:00,  1.64it/s]
+[2024-03-05 17:43] Prompt executed in 60.75 seconds
