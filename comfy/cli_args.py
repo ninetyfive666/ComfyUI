@@ -75,6 +75,7 @@ fpte_group.add_argument("--fp8_e5m2-text-enc", action="store_true", help="Store 
 fpte_group.add_argument("--fp16-text-enc", action="store_true", help="Store text encoder weights in fp16.")
 fpte_group.add_argument("--fp32-text-enc", action="store_true", help="Store text encoder weights in fp32.")
 
+parser.add_argument("--force-channels-last", action="store_true", help="Force channels last format when inferencing the models.")
 
 parser.add_argument("--directml", type=int, nargs="?", metavar="DIRECTML_DEVICE", const=-1, help="Use torch-directml.")
 
@@ -94,6 +95,11 @@ attn_group.add_argument("--use-quad-cross-attention", action="store_true", help=
 attn_group.add_argument("--use-pytorch-cross-attention", action="store_true", help="Use the new pytorch 2.0 cross attention function.")
 
 parser.add_argument("--disable-xformers", action="store_true", help="Disable xformers.")
+
+upcast = parser.add_mutually_exclusive_group()
+upcast.add_argument("--force-upcast-attention", action="store_true", help="Force enable attention upcasting, please report if it fixes black images.")
+upcast.add_argument("--dont-upcast-attention", action="store_true", help="Disable all upcasting of attention. Should be unnecessary except for debugging.")
+
 
 vram_group = parser.add_mutually_exclusive_group()
 vram_group.add_argument("--gpu-only", action="store_true", help="Store and run everything (text encoders/CLIP models, etc... on the GPU).")
