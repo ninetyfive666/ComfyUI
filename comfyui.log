@@ -1,57 +1,1359 @@
 ## ComfyUI-Manager: installing dependencies done.
-[2024-08-05 10:21] ** ComfyUI startup time: 2024-08-05 10:21:47.025308
-[2024-08-05 10:21] ** Platform: Windows
-[2024-08-05 10:21] ** Python version: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
-[2024-08-05 10:21] ** Python executable: C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\python.exe
-[2024-08-05 10:21] ** ComfyUI Path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI
-[2024-08-05 10:21] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
-[2024-08-05 10:21] 
+[2024-09-23 14:59] ** ComfyUI startup time: 2024-09-23 14:59:44.074382
+[2024-09-23 14:59] ** Platform: Windows
+[2024-09-23 14:59] ** Python version: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+[2024-09-23 14:59] ** Python executable: C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\python.exe
+[2024-09-23 14:59] ** ComfyUI Path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI
+[2024-09-23 14:59] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
+[2024-09-23 14:59] 
 #######################################################################
-[2024-08-05 10:21] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
-[2024-08-05 10:21] 
-[2024-08-05 10:21] Install: pip packages for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager'
-[2024-08-05 10:21]    [!] 
-[2024-08-05 10:21] [!] [notice] A new release of pip is available: 24.0 -> 24.2
-[2024-08-05 10:21] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
-[2024-08-05 10:21]               [!] 
-[2024-08-05 10:21] [!] [notice] A new release of pip is available: 24.0 -> 24.2
-[2024-08-05 10:21] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
-[2024-08-05 10:21] [SKIP] Downgrading pip package isn't allowed: huggingface-hub (cur=0.24.2)
-[2024-08-05 10:21]  [!] 
-[2024-08-05 10:21] [!] [notice] A new release of pip is available: 24.0 -> 24.2
-[2024-08-05 10:21] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
-[2024-08-05 10:21] 
+[2024-09-23 14:59] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
+[2024-09-23 14:59] 
+[2024-09-23 14:59] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'importlib_metadata']
+[2024-09-23 14:59] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 14:59]  Collecting importlib_metadata
+[2024-09-23 14:59]    Downloading importlib_metadata-8.5.0-py3-none-any.whl.metadata (4.8 kB)
+[2024-09-23 14:59]  Collecting zipp>=3.20 (from importlib_metadata)
+[2024-09-23 14:59]    Downloading zipp-3.20.2-py3-none-any.whl.metadata (3.7 kB)
+[2024-09-23 14:59]  Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+[2024-09-23 14:59]  Downloading zipp-3.20.2-py3-none-any.whl (9.2 kB)
+[2024-09-23 14:59]  Installing collected packages: zipp, importlib_metadata
+[2024-09-23 14:59]  Successfully installed importlib_metadata-8.5.0 zipp-3.20.2
+[2024-09-23 14:59] [!] 
+[2024-09-23 14:59] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 14:59] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 14:59] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'huggingface_hub']
+[2024-09-23 14:59] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 14:59]              [!] 
+[2024-09-23 14:59] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 14:59] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 14:59] [ERROR] Failed to execute install/(de)activation script: ['C:\\Users\\Lightmapper\\Documents\\GitHub\\ComfyUI\\custom_nodes\\comfyui_controlnet_aux', 'C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'opencv-python>=4.7.0.72']
+ / invalid version number '4.10.0.84'
+[2024-09-23 14:59] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'pyyaml']
+[2024-09-23 14:59] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 14:59]  [!] 
+[2024-09-23 14:59] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 14:59] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 14:59] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'scikit-image']
+[2024-09-23 14:59] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 14:59]  Collecting scikit-image
+[2024-09-23 14:59]    Downloading scikit_image-0.24.0-cp312-cp312-win_amd64.whl.metadata (14 kB)
+[2024-09-23 14:59]      Collecting imageio>=2.33 (from scikit-image)
+[2024-09-23 14:59]    Downloading imageio-2.35.1-py3-none-any.whl.metadata (4.9 kB)
+[2024-09-23 14:59]  Collecting tifffile>=2022.8.12 (from scikit-image)
+[2024-09-23 14:59]    Downloading tifffile-2024.9.20-py3-none-any.whl.metadata (32 kB)
+[2024-09-23 14:59]   Collecting lazy-loader>=0.4 (from scikit-image)
+[2024-09-23 14:59]    Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+[2024-09-23 14:59]  Downloading scikit_image-0.24.0-cp312-cp312-win_amd64.whl (12.9 MB)
+[2024-09-23 14:59]     ---------------------------------------- 12.9/12.9 MB 18.2 MB/s eta 0:00:00
+[2024-09-23 14:59]  Downloading imageio-2.35.1-py3-none-any.whl (315 kB)
+[2024-09-23 14:59]     --------------------------------------- 315.4/315.4 kB 20.3 MB/s eta 0:00:00
+[2024-09-23 14:59]  Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+[2024-09-23 14:59]  Downloading tifffile-2024.9.20-py3-none-any.whl (228 kB)
+[2024-09-23 14:59]     --------------------------------------- 228.2/228.2 kB 13.6 MB/s eta 0:00:00
+[2024-09-23 14:59]  Installing collected packages: tifffile, lazy-loader, imageio, scikit-image
+[2024-09-23 14:59]  Successfully installed imageio-2.35.1 lazy-loader-0.4 scikit-image-0.24.0 tifffile-2024.9.20
+[2024-09-23 14:59] [!] 
+[2024-09-23 14:59] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 14:59] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 14:59] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'python-dateutil']
+[2024-09-23 14:59] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 14:59]  Collecting python-dateutil
+[2024-09-23 14:59]    Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+[2024-09-23 14:59]   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+[2024-09-23 14:59]     ---------------------------------------- 229.9/229.9 kB 2.8 MB/s eta 0:00:00
+[2024-09-23 15:00]  Installing collected packages: python-dateutil
+[2024-09-23 15:00]  Successfully installed python-dateutil-2.9.0.post0
+[2024-09-23 15:00] [!] 
+[2024-09-23 15:00] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:00] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:00] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'mediapipe']
+[2024-09-23 15:00] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:00]  Collecting mediapipe
+[2024-09-23 15:00]    Downloading mediapipe-0.10.14-cp312-cp312-win_amd64.whl.metadata (9.9 kB)
+[2024-09-23 15:00]  Collecting absl-py (from mediapipe)
+[2024-09-23 15:00]    Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+[2024-09-23 15:00]   Collecting flatbuffers>=2.0 (from mediapipe)
+[2024-09-23 15:00]    Downloading flatbuffers-24.3.25-py2.py3-none-any.whl.metadata (850 bytes)
+[2024-09-23 15:00]  Collecting jax (from mediapipe)
+[2024-09-23 15:00]    Downloading jax-0.4.33-py3-none-any.whl.metadata (22 kB)
+[2024-09-23 15:00]  Collecting jaxlib (from mediapipe)
+[2024-09-23 15:00]    Downloading jaxlib-0.4.33-cp312-cp312-win_amd64.whl.metadata (1.0 kB)
+[2024-09-23 15:00]  Collecting matplotlib (from mediapipe)
+[2024-09-23 15:00]    Downloading matplotlib-3.9.2-cp312-cp312-win_amd64.whl.metadata (11 kB)
+[2024-09-23 15:00]   Collecting opencv-contrib-python (from mediapipe)
+[2024-09-23 15:00]    Downloading opencv_contrib_python-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+[2024-09-23 15:00]  Collecting protobuf<5,>=4.25.3 (from mediapipe)
+[2024-09-23 15:00]    Downloading protobuf-4.25.5-cp310-abi3-win_amd64.whl.metadata (541 bytes)
+[2024-09-23 15:00]  Collecting sounddevice>=0.4.4 (from mediapipe)
+[2024-09-23 15:00]    Downloading sounddevice-0.5.0-py3-none-win_amd64.whl.metadata (1.4 kB)
+[2024-09-23 15:00]   Collecting ml-dtypes>=0.2.0 (from jax->mediapipe)
+[2024-09-23 15:00]    Downloading ml_dtypes-0.5.0-cp312-cp312-win_amd64.whl.metadata (22 kB)
+[2024-09-23 15:00]  Collecting opt-einsum (from jax->mediapipe)
+[2024-09-23 15:00]    Downloading opt_einsum-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+[2024-09-23 15:00]   Collecting contourpy>=1.0.1 (from matplotlib->mediapipe)
+[2024-09-23 15:00]    Downloading contourpy-1.3.0-cp312-cp312-win_amd64.whl.metadata (5.4 kB)
+[2024-09-23 15:00]  Collecting cycler>=0.10 (from matplotlib->mediapipe)
+[2024-09-23 15:00]    Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+[2024-09-23 15:00]  Collecting fonttools>=4.22.0 (from matplotlib->mediapipe)
+[2024-09-23 15:00]    Downloading fonttools-4.53.1-cp312-cp312-win_amd64.whl.metadata (165 kB)
+[2024-09-23 15:00]       -------------------------------------- 165.9/165.9 kB 1.2 MB/s eta 0:00:00
+[2024-09-23 15:00]  Collecting kiwisolver>=1.3.1 (from matplotlib->mediapipe)
+[2024-09-23 15:00]    Downloading kiwisolver-1.4.7-cp312-cp312-win_amd64.whl.metadata (6.4 kB)
+[2024-09-23 15:00]    Collecting pyparsing>=2.3.1 (from matplotlib->mediapipe)
+[2024-09-23 15:00]    Downloading pyparsing-3.1.4-py3-none-any.whl.metadata (5.1 kB)
+[2024-09-23 15:00]     Downloading mediapipe-0.10.14-cp312-cp312-win_amd64.whl (50.8 MB)
+[2024-09-23 15:00]     ---------------------------------------- 50.8/50.8 MB 4.0 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading flatbuffers-24.3.25-py2.py3-none-any.whl (26 kB)
+[2024-09-23 15:00]  Downloading protobuf-4.25.5-cp310-abi3-win_amd64.whl (413 kB)
+[2024-09-23 15:00]     ---------------------------------------- 413.4/413.4 kB 5.2 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading sounddevice-0.5.0-py3-none-win_amd64.whl (189 kB)
+[2024-09-23 15:00]     ---------------------------------------- 189.8/189.8 kB 5.8 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+[2024-09-23 15:00]     ---------------------------------------- 133.7/133.7 kB 7.7 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading jax-0.4.33-py3-none-any.whl (2.1 MB)
+[2024-09-23 15:00]     ---------------------------------------- 2.1/2.1 MB 3.8 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading jaxlib-0.4.33-cp312-cp312-win_amd64.whl (54.4 MB)
+[2024-09-23 15:00]     ---------------------------------------- 54.4/54.4 MB 10.4 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading matplotlib-3.9.2-cp312-cp312-win_amd64.whl (7.8 MB)
+[2024-09-23 15:00]     ---------------------------------------- 7.8/7.8 MB 11.9 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading opencv_contrib_python-4.10.0.84-cp37-abi3-win_amd64.whl (45.5 MB)
+[2024-09-23 15:00]     ---------------------------------------- 45.5/45.5 MB 14.5 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading contourpy-1.3.0-cp312-cp312-win_amd64.whl (218 kB)
+[2024-09-23 15:00]     --------------------------------------- 218.3/218.3 kB 13.9 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+[2024-09-23 15:00]  Downloading fonttools-4.53.1-cp312-cp312-win_amd64.whl (2.2 MB)
+[2024-09-23 15:00]     ---------------------------------------- 2.2/2.2 MB 15.5 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading kiwisolver-1.4.7-cp312-cp312-win_amd64.whl (55 kB)
+[2024-09-23 15:00]     ---------------------------------------- 55.9/55.9 kB ? eta 0:00:00
+[2024-09-23 15:00]  Downloading ml_dtypes-0.5.0-cp312-cp312-win_amd64.whl (213 kB)
+[2024-09-23 15:00]     --------------------------------------- 213.2/213.2 kB 12.7 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+[2024-09-23 15:00]     ---------------------------------------- 104.1/104.1 kB 6.3 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+[2024-09-23 15:00]     ---------------------------------------- 65.5/65.5 kB 3.5 MB/s eta 0:00:00
+[2024-09-23 15:00]  Installing collected packages: flatbuffers, pyparsing, protobuf, opt-einsum, opencv-contrib-python, ml-dtypes, kiwisolver, fonttools, cycler, contourpy, absl-py, sounddevice, matplotlib, jaxlib, jax, mediapipe
+[2024-09-23 15:00]  Successfully installed absl-py-2.1.0 contourpy-1.3.0 cycler-0.12.1 flatbuffers-24.3.25 fonttools-4.53.1 jax-0.4.33 jaxlib-0.4.33 kiwisolver-1.4.7 matplotlib-3.9.2 mediapipe-0.10.14 ml-dtypes-0.5.0 opencv-contrib-python-4.10.0.84 opt-einsum-3.3.0 protobuf-4.25.5 pyparsing-3.1.4 sounddevice-0.5.0
+[2024-09-23 15:00] [!] 
+[2024-09-23 15:00] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:00] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:00] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'svglib']
+[2024-09-23 15:00] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:00]  Collecting svglib
+[2024-09-23 15:00]    Downloading svglib-1.5.1.tar.gz (913 kB)
+[2024-09-23 15:00]       -------------------------------------- 913.9/913.9 kB 2.9 MB/s eta 0:00:00
+[2024-09-23 15:00]    Preparing metadata (setup.py): started
+[2024-09-23 15:00]    Preparing metadata (setup.py): finished with status 'done'
+[2024-09-23 15:00]  Collecting reportlab (from svglib)
+[2024-09-23 15:00]    Downloading reportlab-4.2.2-py3-none-any.whl.metadata (1.4 kB)
+[2024-09-23 15:00]  Collecting lxml (from svglib)
+[2024-09-23 15:00]    Downloading lxml-5.3.0-cp312-cp312-win_amd64.whl.metadata (3.9 kB)
+[2024-09-23 15:00]  Collecting tinycss2>=0.6.0 (from svglib)
+[2024-09-23 15:00]    Downloading tinycss2-1.3.0-py3-none-any.whl.metadata (3.0 kB)
+[2024-09-23 15:00]  Collecting cssselect2>=0.2.0 (from svglib)
+[2024-09-23 15:00]    Downloading cssselect2-0.7.0-py3-none-any.whl.metadata (2.9 kB)
+[2024-09-23 15:00]  Collecting webencodings (from cssselect2>=0.2.0->svglib)
+[2024-09-23 15:00]    Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+[2024-09-23 15:00]   Collecting chardet (from reportlab->svglib)
+[2024-09-23 15:00]    Downloading chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+[2024-09-23 15:00]  Downloading cssselect2-0.7.0-py3-none-any.whl (15 kB)
+[2024-09-23 15:00]  Downloading tinycss2-1.3.0-py3-none-any.whl (22 kB)
+[2024-09-23 15:00]  Downloading lxml-5.3.0-cp312-cp312-win_amd64.whl (3.8 MB)
+[2024-09-23 15:00]     ---------------------------------------- 3.8/3.8 MB 8.1 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading reportlab-4.2.2-py3-none-any.whl (1.9 MB)
+[2024-09-23 15:00]     ---------------------------------------- 1.9/1.9 MB 13.8 MB/s eta 0:00:00
+[2024-09-23 15:00]  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+[2024-09-23 15:00]  Downloading chardet-5.2.0-py3-none-any.whl (199 kB)
+[2024-09-23 15:00]     --------------------------------------- 199.4/199.4 kB 11.8 MB/s eta 0:00:00
+[2024-09-23 15:00]  Building wheels for collected packages: svglib
+[2024-09-23 15:00]    Building wheel for svglib (setup.py): started
+[2024-09-23 15:00]    Building wheel for svglib (setup.py): finished with status 'done'
+[2024-09-23 15:01]    Created wheel for svglib: filename=svglib-1.5.1-py3-none-any.whl size=30977 sha256=92274c3a69ff221d23a49b316a7acf8aa9acef0f758488c860a6e6b1c6799b52
+[2024-09-23 15:01]    Stored in directory: c:\users\lightmapper\appdata\local\pip\cache\wheels\9c\a3\80\b15b7e7a70fc699803bfe258ec8eb09db5ad15e1b0871871c5
+[2024-09-23 15:01]  Successfully built svglib
+[2024-09-23 15:01]  Installing collected packages: webencodings, tinycss2, lxml, chardet, reportlab, cssselect2, svglib
+[2024-09-23 15:01]  Successfully installed chardet-5.2.0 cssselect2-0.7.0 lxml-5.3.0 reportlab-4.2.2 svglib-1.5.1 tinycss2-1.3.0 webencodings-0.5.1
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'fvcore']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting fvcore
+[2024-09-23 15:01]    Downloading fvcore-0.1.5.post20221221.tar.gz (50 kB)
+[2024-09-23 15:01]       -------------------------------------- 50.2/50.2 kB 512.5 kB/s eta 0:00:00
+[2024-09-23 15:01]    Preparing metadata (setup.py): started
+[2024-09-23 15:01]    Preparing metadata (setup.py): finished with status 'done'
+[2024-09-23 15:01]   Collecting yacs>=0.1.6 (from fvcore)
+[2024-09-23 15:01]    Downloading yacs-0.1.8-py3-none-any.whl.metadata (639 bytes)
+[2024-09-23 15:01]    Collecting termcolor>=1.1 (from fvcore)
+[2024-09-23 15:01]    Downloading termcolor-2.4.0-py3-none-any.whl.metadata (6.1 kB)
+[2024-09-23 15:01]   Collecting tabulate (from fvcore)
+[2024-09-23 15:01]    Downloading tabulate-0.9.0-py3-none-any.whl.metadata (34 kB)
+[2024-09-23 15:01]  Collecting iopath>=0.1.7 (from fvcore)
+[2024-09-23 15:01]    Downloading iopath-0.1.10.tar.gz (42 kB)
+[2024-09-23 15:01]       ---------------------------------------- 42.2/42.2 kB 2.1 MB/s eta 0:00:00
+[2024-09-23 15:01]    Preparing metadata (setup.py): started
+[2024-09-23 15:01]    Preparing metadata (setup.py): finished with status 'done'
+[2024-09-23 15:01]   Collecting portalocker (from iopath>=0.1.7->fvcore)
+[2024-09-23 15:01]    Downloading portalocker-2.10.1-py3-none-any.whl.metadata (8.5 kB)
+[2024-09-23 15:01]   Collecting pywin32>=226 (from portalocker->iopath>=0.1.7->fvcore)
+[2024-09-23 15:01]    Downloading pywin32-306-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+[2024-09-23 15:01]  Downloading termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+[2024-09-23 15:01]  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+[2024-09-23 15:01]  Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
+[2024-09-23 15:01]  Downloading portalocker-2.10.1-py3-none-any.whl (18 kB)
+[2024-09-23 15:01]  Downloading pywin32-306-cp312-cp312-win_amd64.whl (9.2 MB)
+[2024-09-23 15:01]     ---------------------------------------- 9.2/9.2 MB 29.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Building wheels for collected packages: fvcore, iopath
+[2024-09-23 15:01]    Building wheel for fvcore (setup.py): started
+[2024-09-23 15:01]    Building wheel for fvcore (setup.py): finished with status 'done'
+[2024-09-23 15:01]    Created wheel for fvcore: filename=fvcore-0.1.5.post20221221-py3-none-any.whl size=61412 sha256=43ab0486d577f66f466bf4828d5db48bcc0b3879c6d5cbc6c62f5841e96eda47
+[2024-09-23 15:01]    Stored in directory: c:\users\lightmapper\appdata\local\pip\cache\wheels\ed\9f\a5\e4f5b27454ccd4596bd8b62432c7d6b1ca9fa22aef9d70a16a
+[2024-09-23 15:01]    Building wheel for iopath (setup.py): started
+[2024-09-23 15:01]    Building wheel for iopath (setup.py): finished with status 'done'
+[2024-09-23 15:01]    Created wheel for iopath: filename=iopath-0.1.10-py3-none-any.whl size=31542 sha256=4940e6664587ad64c13f505ba29c5a4dcd8182e127ba4568908266d7b9df5138
+[2024-09-23 15:01]    Stored in directory: c:\users\lightmapper\appdata\local\pip\cache\wheels\7c\96\04\4f5f31ff812f684f69f40cb1634357812220aac58d4698048c
+[2024-09-23 15:01]  Successfully built fvcore iopath
+[2024-09-23 15:01]  Installing collected packages: pywin32, yacs, termcolor, tabulate, portalocker, iopath, fvcore
+[2024-09-23 15:01]  Successfully installed fvcore-0.1.5.post20221221 iopath-0.1.10 portalocker-2.10.1 pywin32-306 tabulate-0.9.0 termcolor-2.4.0 yacs-0.1.8
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'yapf']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting yapf
+[2024-09-23 15:01]    Downloading yapf-0.40.2-py3-none-any.whl.metadata (45 kB)
+[2024-09-23 15:01]       -------------------------------------- 45.4/45.4 kB 450.4 kB/s eta 0:00:00
+[2024-09-23 15:01]   Collecting platformdirs>=3.5.1 (from yapf)
+[2024-09-23 15:01]    Downloading platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+[2024-09-23 15:01]  Collecting tomli>=2.0.1 (from yapf)
+[2024-09-23 15:01]    Downloading tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+[2024-09-23 15:01]   Downloading yapf-0.40.2-py3-none-any.whl (254 kB)
+[2024-09-23 15:01]     ---------------------------------------- 254.7/254.7 kB 5.2 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading platformdirs-4.3.6-py3-none-any.whl (18 kB)
+[2024-09-23 15:01]  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+[2024-09-23 15:01]  Installing collected packages: tomli, platformdirs, yapf
+[2024-09-23 15:01]  Successfully installed platformdirs-4.3.6 tomli-2.0.1 yapf-0.40.2
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'omegaconf']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting omegaconf
+[2024-09-23 15:01]    Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+[2024-09-23 15:01]  Collecting antlr4-python3-runtime==4.9.* (from omegaconf)
+[2024-09-23 15:01]    Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+[2024-09-23 15:01]       ------------------------------------ 117.0/117.0 kB 970.9 kB/s eta 0:00:00
+[2024-09-23 15:01]    Preparing metadata (setup.py): started
+[2024-09-23 15:01]    Preparing metadata (setup.py): finished with status 'done'
+[2024-09-23 15:01]   Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+[2024-09-23 15:01]     ---------------------------------------- 79.5/79.5 kB 4.3 MB/s eta 0:00:00
+[2024-09-23 15:01]  Building wheels for collected packages: antlr4-python3-runtime
+[2024-09-23 15:01]    Building wheel for antlr4-python3-runtime (setup.py): started
+[2024-09-23 15:01]    Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+[2024-09-23 15:01]    Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144577 sha256=969d7b1b02abc1dd548681eff6ec0366fb560a8e998d35b0ea6eb9a30dcca3e3
+[2024-09-23 15:01]    Stored in directory: c:\users\lightmapper\appdata\local\pip\cache\wheels\1f\be\48\13754633f1d08d1fbfc60d5e80ae1e5d7329500477685286cd
+[2024-09-23 15:01]  Successfully built antlr4-python3-runtime
+[2024-09-23 15:01]  Installing collected packages: antlr4-python3-runtime, omegaconf
+[2024-09-23 15:01]  Successfully installed antlr4-python3-runtime-4.9.3 omegaconf-2.3.0
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'ftfy']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting ftfy
+[2024-09-23 15:01]    Downloading ftfy-6.2.3-py3-none-any.whl.metadata (7.8 kB)
+[2024-09-23 15:01]  Collecting wcwidth<0.3.0,>=0.2.12 (from ftfy)
+[2024-09-23 15:01]    Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+[2024-09-23 15:01]  Downloading ftfy-6.2.3-py3-none-any.whl (43 kB)
+[2024-09-23 15:01]     ---------------------------------------- 43.0/43.0 kB 2.0 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+[2024-09-23 15:01]  Installing collected packages: wcwidth, ftfy
+[2024-09-23 15:01]  Successfully installed ftfy-6.2.3 wcwidth-0.2.13
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'addict']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting addict
+[2024-09-23 15:01]    Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+[2024-09-23 15:01]  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+[2024-09-23 15:01]  Installing collected packages: addict
+[2024-09-23 15:01]  Successfully installed addict-2.4.0
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'yacs']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]   [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'trimesh[easy]']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting trimesh[easy]
+[2024-09-23 15:01]    Downloading trimesh-4.4.9-py3-none-any.whl.metadata (18 kB)
+[2024-09-23 15:01]   Collecting colorlog (from trimesh[easy])
+[2024-09-23 15:01]    Downloading colorlog-6.8.2-py3-none-any.whl.metadata (10 kB)
+[2024-09-23 15:01]  Collecting manifold3d>=2.3.0 (from trimesh[easy])
+[2024-09-23 15:01]    Downloading manifold3d-2.5.1-cp312-cp312-win_amd64.whl.metadata (13 kB)
+[2024-09-23 15:01]    Collecting jsonschema (from trimesh[easy])
+[2024-09-23 15:01]    Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+[2024-09-23 15:01]   Collecting svg.path (from trimesh[easy])
+[2024-09-23 15:01]    Downloading svg.path-6.3-py2.py3-none-any.whl.metadata (13 kB)
+[2024-09-23 15:01]  Collecting pycollada (from trimesh[easy])
+[2024-09-23 15:01]    Downloading pycollada-0.8.tar.gz (108 kB)
+[2024-09-23 15:01]       -------------------------------------- 108.1/108.1 kB 1.0 MB/s eta 0:00:00
+[2024-09-23 15:01]    Preparing metadata (setup.py): started
+[2024-09-23 15:01]    Preparing metadata (setup.py): finished with status 'done'
+[2024-09-23 15:01]   Collecting shapely (from trimesh[easy])
+[2024-09-23 15:01]    Downloading shapely-2.0.6-cp312-cp312-win_amd64.whl.metadata (7.2 kB)
+[2024-09-23 15:01]  Collecting xxhash (from trimesh[easy])
+[2024-09-23 15:01]    Downloading xxhash-3.5.0-cp312-cp312-win_amd64.whl.metadata (13 kB)
+[2024-09-23 15:01]  Collecting rtree (from trimesh[easy])
+[2024-09-23 15:01]    Downloading Rtree-1.3.0-py3-none-win_amd64.whl.metadata (2.1 kB)
+[2024-09-23 15:01]  Collecting httpx (from trimesh[easy])
+[2024-09-23 15:01]    Downloading httpx-0.27.2-py3-none-any.whl.metadata (7.1 kB)
+[2024-09-23 15:01]    Collecting xatlas (from trimesh[easy])
+[2024-09-23 15:01]    Downloading xatlas-0.0.9-cp312-cp312-win_amd64.whl.metadata (5.0 kB)
+[2024-09-23 15:01]  Collecting vhacdx (from trimesh[easy])
+[2024-09-23 15:01]    Downloading vhacdx-0.0.8.post1-cp312-cp312-win_amd64.whl.metadata (1.1 kB)
+[2024-09-23 15:01]  Collecting mapbox-earcut>=1.0.2 (from trimesh[easy])
+[2024-09-23 15:01]    Downloading mapbox_earcut-1.0.2-cp312-cp312-win_amd64.whl.metadata (2.2 kB)
+[2024-09-23 15:01]   Collecting anyio (from httpx->trimesh[easy])
+[2024-09-23 15:01]    Downloading anyio-4.6.0-py3-none-any.whl.metadata (4.6 kB)
+[2024-09-23 15:01]   Collecting httpcore==1.* (from httpx->trimesh[easy])
+[2024-09-23 15:01]    Downloading httpcore-1.0.5-py3-none-any.whl.metadata (20 kB)
+[2024-09-23 15:01]   Collecting sniffio (from httpx->trimesh[easy])
+[2024-09-23 15:01]    Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+[2024-09-23 15:01]  Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx->trimesh[easy])
+[2024-09-23 15:01]    Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+[2024-09-23 15:01]   Collecting jsonschema-specifications>=2023.03.6 (from jsonschema->trimesh[easy])
+[2024-09-23 15:01]    Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+[2024-09-23 15:01]  Collecting referencing>=0.28.4 (from jsonschema->trimesh[easy])
+[2024-09-23 15:01]    Downloading referencing-0.35.1-py3-none-any.whl.metadata (2.8 kB)
+[2024-09-23 15:01]  Collecting rpds-py>=0.7.1 (from jsonschema->trimesh[easy])
+[2024-09-23 15:01]    Downloading rpds_py-0.20.0-cp312-none-win_amd64.whl.metadata (4.2 kB)
+[2024-09-23 15:01]    Downloading manifold3d-2.5.1-cp312-cp312-win_amd64.whl (946 kB)
+[2024-09-23 15:01]     ---------------------------------------- 946.9/946.9 kB 1.8 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading mapbox_earcut-1.0.2-cp312-cp312-win_amd64.whl (73 kB)
+[2024-09-23 15:01]     ---------------------------------------- 73.6/73.6 kB 2.0 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading colorlog-6.8.2-py3-none-any.whl (11 kB)
+[2024-09-23 15:01]  Downloading httpx-0.27.2-py3-none-any.whl (76 kB)
+[2024-09-23 15:01]     ---------------------------------------- 76.4/76.4 kB 2.1 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading httpcore-1.0.5-py3-none-any.whl (77 kB)
+[2024-09-23 15:01]     ---------------------------------------- 77.9/77.9 kB 2.2 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+[2024-09-23 15:01]     ---------------------------------------- 88.5/88.5 kB 1.7 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading Rtree-1.3.0-py3-none-win_amd64.whl (377 kB)
+[2024-09-23 15:01]     ---------------------------------------- 377.5/377.5 kB 2.9 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading shapely-2.0.6-cp312-cp312-win_amd64.whl (1.4 MB)
+[2024-09-23 15:01]     ---------------------------------------- 1.4/1.4 MB 3.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading svg.path-6.3-py2.py3-none-any.whl (16 kB)
+[2024-09-23 15:01]  Downloading trimesh-4.4.9-py3-none-any.whl (700 kB)
+[2024-09-23 15:01]     ---------------------------------------- 700.1/700.1 kB 8.8 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading vhacdx-0.0.8.post1-cp312-cp312-win_amd64.whl (130 kB)
+[2024-09-23 15:01]     ---------------------------------------- 130.8/130.8 kB 7.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading xatlas-0.0.9-cp312-cp312-win_amd64.whl (193 kB)
+[2024-09-23 15:01]     --------------------------------------- 193.8/193.8 kB 11.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading xxhash-3.5.0-cp312-cp312-win_amd64.whl (30 kB)
+[2024-09-23 15:01]  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+[2024-09-23 15:01]  Downloading referencing-0.35.1-py3-none-any.whl (26 kB)
+[2024-09-23 15:01]  Downloading rpds_py-0.20.0-cp312-none-win_amd64.whl (214 kB)
+[2024-09-23 15:01]     ---------------------------------------- 214.5/214.5 kB 6.6 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading anyio-4.6.0-py3-none-any.whl (89 kB)
+[2024-09-23 15:01]     ---------------------------------------- 89.6/89.6 kB ? eta 0:00:00
+[2024-09-23 15:01]  Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+[2024-09-23 15:01]  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+[2024-09-23 15:01]     ---------------------------------------- 58.3/58.3 kB ? eta 0:00:00
+[2024-09-23 15:01]  Building wheels for collected packages: pycollada
+[2024-09-23 15:01]    Building wheel for pycollada (setup.py): started
+[2024-09-23 15:01]    Building wheel for pycollada (setup.py): finished with status 'done'
+[2024-09-23 15:01]    Created wheel for pycollada: filename=pycollada-0.8-py3-none-any.whl size=127523 sha256=7ff2a038234f26acb94df01ba5db868dbdec57793f324ba464d7fbb0df51b74c
+[2024-09-23 15:01]    Stored in directory: c:\users\lightmapper\appdata\local\pip\cache\wheels\b9\8e\28\b53be0e53e15dbf6601b2b04c82e0758561d61b2a3b689f43e
+[2024-09-23 15:01]  Successfully built pycollada
+[2024-09-23 15:01]  Installing collected packages: xxhash, xatlas, vhacdx, trimesh, svg.path, sniffio, shapely, rtree, rpds-py, mapbox-earcut, manifold3d, h11, colorlog, referencing, pycollada, httpcore, anyio, jsonschema-specifications, httpx, jsonschema
+[2024-09-23 15:01]  Successfully installed anyio-4.6.0 colorlog-6.8.2 h11-0.14.0 httpcore-1.0.5 httpx-0.27.2 jsonschema-4.23.0 jsonschema-specifications-2023.12.1 manifold3d-2.5.1 mapbox-earcut-1.0.2 pycollada-0.8 referencing-0.35.1 rpds-py-0.20.0 rtree-1.3.0 shapely-2.0.6 sniffio-1.3.1 svg.path-6.3 trimesh-4.4.9 vhacdx-0.0.8.post1 xatlas-0.0.9 xxhash-3.5.0
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'albumentations']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting albumentations
+[2024-09-23 15:01]    Downloading albumentations-1.4.16-py3-none-any.whl.metadata (38 kB)
+[2024-09-23 15:01]      Collecting pydantic>=2.7.0 (from albumentations)
+[2024-09-23 15:01]    Downloading pydantic-2.9.2-py3-none-any.whl.metadata (149 kB)
+[2024-09-23 15:01]       -------------------------------------- 149.4/149.4 kB 4.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Collecting albucore==0.0.17 (from albumentations)
+[2024-09-23 15:01]    Downloading albucore-0.0.17-py3-none-any.whl.metadata (3.1 kB)
+[2024-09-23 15:01]  Collecting eval-type-backport (from albumentations)
+[2024-09-23 15:01]    Downloading eval_type_backport-0.2.0-py3-none-any.whl.metadata (2.2 kB)
+[2024-09-23 15:01]  Collecting opencv-python-headless>=4.9.0.80 (from albumentations)
+[2024-09-23 15:01]    Downloading opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+[2024-09-23 15:01]  Collecting annotated-types>=0.6.0 (from pydantic>=2.7.0->albumentations)
+[2024-09-23 15:01]    Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+[2024-09-23 15:01]  Collecting pydantic-core==2.23.4 (from pydantic>=2.7.0->albumentations)
+[2024-09-23 15:01]    Downloading pydantic_core-2.23.4-cp312-none-win_amd64.whl.metadata (6.7 kB)
+[2024-09-23 15:01]         Downloading albumentations-1.4.16-py3-none-any.whl (214 kB)
+[2024-09-23 15:01]     --------------------------------------- 214.6/214.6 kB 12.8 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading albucore-0.0.17-py3-none-any.whl (10 kB)
+[2024-09-23 15:01]  Downloading opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+[2024-09-23 15:01]     ---------------------------------------- 38.8/38.8 MB 73.0 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading pydantic-2.9.2-py3-none-any.whl (434 kB)
+[2024-09-23 15:01]     --------------------------------------- 434.9/434.9 kB 28.3 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading pydantic_core-2.23.4-cp312-none-win_amd64.whl (1.9 MB)
+[2024-09-23 15:01]     ---------------------------------------- 1.9/1.9 MB 61.5 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading eval_type_backport-0.2.0-py3-none-any.whl (5.9 kB)
+[2024-09-23 15:01]  Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+[2024-09-23 15:01]  Installing collected packages: pydantic-core, opencv-python-headless, eval-type-backport, annotated-types, pydantic, albucore, albumentations
+[2024-09-23 15:01]  Successfully installed albucore-0.0.17 albumentations-1.4.16 annotated-types-0.7.0 eval-type-backport-0.2.0 opencv-python-headless-4.10.0.84 pydantic-2.9.2 pydantic-core-2.23.4
+[2024-09-23 15:01] [!] 
+[2024-09-23 15:01] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:01] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:01] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'scikit-learn']
+[2024-09-23 15:01] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:01]  Collecting scikit-learn
+[2024-09-23 15:01]    Downloading scikit_learn-1.5.2-cp312-cp312-win_amd64.whl.metadata (13 kB)
+[2024-09-23 15:01]    Collecting joblib>=1.2.0 (from scikit-learn)
+[2024-09-23 15:01]    Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+[2024-09-23 15:01]  Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+[2024-09-23 15:01]    Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+[2024-09-23 15:01]  Downloading scikit_learn-1.5.2-cp312-cp312-win_amd64.whl (11.0 MB)
+[2024-09-23 15:01]     ---------------------------------------- 11.0/11.0 MB 14.9 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+[2024-09-23 15:01]     --------------------------------------- 301.8/301.8 kB 18.2 MB/s eta 0:00:00
+[2024-09-23 15:01]  Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+[2024-09-23 15:01]  Installing collected packages: threadpoolctl, joblib, scikit-learn
+[2024-09-23 15:01]  Successfully installed joblib-1.4.2 scikit-learn-1.5.2 threadpoolctl-3.5.0
+[2024-09-23 15:02] [!] 
+[2024-09-23 15:02] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:02] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:02] 
+## ComfyUI-Manager: EXECUTE => ['C:\\Users\\Lightmapper\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', 'matplotlib']
+[2024-09-23 15:02] 
+## Execute install/(de)activation script for 'C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux'
+[2024-09-23 15:02]            [!] 
+[2024-09-23 15:02] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-09-23 15:02] [!] [notice] To update, run: python.exe -m pip install --upgrade pip
+[2024-09-23 15:02] 
 [ComfyUI-Manager] Startup script completed.
-[2024-08-05 10:21] #######################################################################
-[2024-08-05 10:21] 
-[2024-08-05 10:21] 
+[2024-09-23 15:02] #######################################################################
+[2024-09-23 15:02] 
+[2024-09-23 15:02] 
 Prestartup times for custom nodes:
-[2024-08-05 10:21]    7.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-08-05 10:21] 
+[2024-09-23 15:02]  143.8 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-09-23 15:02] 
 Total VRAM 24576 MB, total RAM 130987 MB
-[2024-08-05 10:21] pytorch version: 2.5.0.dev20240726+cu124
-[2024-08-05 10:21] Set vram state to: NORMAL_VRAM
-[2024-08-05 10:21] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
-[2024-08-05 10:21] Using pytorch cross attention
-[2024-08-05 10:21] [Prompt Server] web root: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\web
-[2024-08-05 10:21] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+[2024-09-23 15:02] pytorch version: 2.5.0.dev20240726+cu124
+[2024-09-23 15:02] Set vram state to: NORMAL_VRAM
+[2024-09-23 15:02] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2024-09-23 15:02] Using pytorch cross attention
+[2024-09-23 15:02] [Prompt Server] web root: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\web
+[2024-09-23 15:02] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
   @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
-[2024-08-05 10:21] ### Loading: ComfyUI-Manager (V2.48.5)
-[2024-08-05 10:21] ### ComfyUI Revision: 2436 [0a594c48] | Released on '2024-07-29'
-[2024-08-05 10:21] 
+[2024-09-23 15:02] ### Loading: ComfyUI-Manager (V2.48.5)
+[2024-09-23 15:02] ### ComfyUI Revision: 2728 [04ba2d0e] | Released on '2024-09-17'
+[2024-09-23 15:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-09-23 15:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-09-23 15:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-09-23 15:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-09-23 15:02] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-09-23 15:02] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-09-23 15:02] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-09-23 15:02] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-09-23 15:02] generated new fontManager
+[2024-09-23 15:02] C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-09-23 15:02] 
 Import times for custom nodes:
-[2024-08-05 10:21]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\websocket_image_save.py
-[2024-08-05 10:21]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SD3-nodes
-[2024-08-05 10:21]    0.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-08-05 10:21] 
-[2024-08-05 10:21] Starting server
+[2024-09-23 15:02]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-09-23 15:02]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SD3-nodes
+[2024-09-23 15:02]    0.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-09-23 15:02]    2.9 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-09-23 15:02] 
+[2024-09-23 15:02] Starting server
 
-[2024-08-05 10:21] To see the GUI go to: http://127.0.0.1:8188
-[2024-08-05 10:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-08-05 10:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-08-05 10:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
-[2024-08-05 10:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-08-05 10:21] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-08-05 10:22] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
-[2024-08-05 10:24] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
-[2024-08-05 10:24] Update ComfyUI
+[2024-09-23 15:02] To see the GUI go to: http://127.0.0.1:8188
+[2024-09-23 15:02] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 15:02] got prompt
+[2024-09-23 15:02] Failed to validate prompt for output 9:
+[2024-09-23 15:02] * UNETLoader 12:
+[2024-09-23 15:02]   - Required input is missing: unet_name
+[2024-09-23 15:02] Output will be ignored
+[2024-09-23 15:02] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:02] got prompt
+[2024-09-23 15:02] Failed to validate prompt for output 9:
+[2024-09-23 15:02] * UNETLoader 12:
+[2024-09-23 15:02]   - Required input is missing: unet_name
+[2024-09-23 15:02] Output will be ignored
+[2024-09-23 15:02] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:04] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 15:06] got prompt
+[2024-09-23 15:06] Failed to validate prompt for output 9:
+[2024-09-23 15:06] * UNETLoader 12:
+[2024-09-23 15:06]   - Required input is missing: unet_name
+[2024-09-23 15:06] Output will be ignored
+[2024-09-23 15:06] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:13] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 15:13] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 15:14] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 15:14] got prompt
+[2024-09-23 15:14] Failed to validate prompt for output 9:
+[2024-09-23 15:14] * UNETLoader 12:
+[2024-09-23 15:14]   - Value not in list: unet_name: 'flux1-dev-fp8.safetensors' not in ['flux1-dev.safetensors']
+[2024-09-23 15:14] * ControlNetLoader 48:
+[2024-09-23 15:14]   - Value not in list: control_net_name: 'FLUX.1-dev-ControlNet-Union-Pro/diffusion_pytorch_model.safetensors' not in ['diffusion_pytorch_model.safetensors']
+[2024-09-23 15:14] Output will be ignored
+[2024-09-23 15:14] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:15] got prompt
+[2024-09-23 15:15] Failed to validate prompt for output 9:
+[2024-09-23 15:15] * ControlNetLoader 48:
+[2024-09-23 15:15]   - Value not in list: control_net_name: 'FLUX.1-dev-ControlNet-Union-Pro/diffusion_pytorch_model.safetensors' not in ['diffusion_pytorch_model.safetensors']
+[2024-09-23 15:15] Output will be ignored
+[2024-09-23 15:15] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:15] got prompt
+[2024-09-23 15:15] Failed to validate prompt for output 9:
+[2024-09-23 15:15] * ControlNetLoader 48:
+[2024-09-23 15:15]   - Value not in list: control_net_name: 'FLUX.1-dev-ControlNet-Union-Pro/diffusion_pytorch_model.safetensors' not in ['diffusion_pytorch_model.safetensors']
+[2024-09-23 15:15] Output will be ignored
+[2024-09-23 15:15] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:16] got prompt
+[2024-09-23 15:16] Failed to validate prompt for output 9:
+[2024-09-23 15:16] * ControlNetLoader 48:
+[2024-09-23 15:16]   - Value not in list: control_net_name: 'FLUX.1-dev-ControlNet-Union-Pro/diffusion_pytorch_model.safetensors' not in ['diffusion_pytorch_model.safetensors']
+[2024-09-23 15:16] Output will be ignored
+[2024-09-23 15:16] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-09-23 15:16] got prompt
+[2024-09-23 15:16] Using pytorch attention in VAE
+[2024-09-23 15:16] Using pytorch attention in VAE
+[2024-09-23 15:16] model weight dtype torch.bfloat16, manual cast: None
+[2024-09-23 15:16] model_type FLUX
+[2024-09-23 15:16] clip missing: ['text_projection.weight']
+[2024-09-23 15:16] !!! Exception during processing !!! Error(s) in loading state_dict for CLIPTextModel:
+	size mismatch for text_model.embeddings.token_embedding.weight: copying a param with shape torch.Size([49408, 1280]) from checkpoint, the shape in current model is torch.Size([49408, 768]).
+	size mismatch for text_model.embeddings.position_embedding.weight: copying a param with shape torch.Size([77, 1280]) from checkpoint, the shape in current model is torch.Size([77, 768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.final_layer_norm.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.final_layer_norm.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_projection.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+[2024-09-23 15:16] Traceback (most recent call last):
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\execution.py", line 323, in execute
+    output_data, output_ui, has_subgraph = get_output_data(obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\execution.py", line 198, in get_output_data
+    return_values = _map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\execution.py", line 169, in _map_node_over_list
+    process_inputs(input_dict, i)
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\execution.py", line 158, in process_inputs
+    results.append(getattr(obj, func)(**inputs))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\nodes.py", line 925, in load_clip
+    clip = comfy.sd.load_clip(ckpt_paths=[clip_path1, clip_path2], embedding_directory=folder_paths.get_folder_paths("embeddings"), clip_type=clip_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\sd.py", line 407, in load_clip
+    return load_text_encoder_state_dicts(clip_data, embedding_directory=embedding_directory, clip_type=clip_type, model_options=model_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\sd.py", line 481, in load_text_encoder_state_dicts
+    m, u = clip.load_sd(c)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\sd.py", line 147, in load_sd
+    return self.cond_stage_model.load_sd(sd)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\text_encoders\flux.py", line 65, in load_sd
+    return self.clip_l.load_sd(sd)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\sd1_clip.py", line 232, in load_sd
+    return self.transformer.load_state_dict(sd, strict=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 2498, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for CLIPTextModel:
+	size mismatch for text_model.embeddings.token_embedding.weight: copying a param with shape torch.Size([49408, 1280]) from checkpoint, the shape in current model is torch.Size([49408, 768]).
+	size mismatch for text_model.embeddings.position_embedding.weight: copying a param with shape torch.Size([77, 1280]) from checkpoint, the shape in current model is torch.Size([77, 768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.0.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.0.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.1.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.1.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.2.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.2.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.3.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.3.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.4.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.4.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.5.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.5.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.6.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.6.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.7.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.7.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.8.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.8.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.9.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.9.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.10.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.10.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm1.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm1.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.q_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.q_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.k_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.k_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.v_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.v_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.out_proj.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+	size mismatch for text_model.encoder.layers.11.self_attn.out_proj.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm2.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.layer_norm2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc1.weight: copying a param with shape torch.Size([5120, 1280]) from checkpoint, the shape in current model is torch.Size([3072, 768]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc1.bias: copying a param with shape torch.Size([5120]) from checkpoint, the shape in current model is torch.Size([3072]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc2.weight: copying a param with shape torch.Size([1280, 5120]) from checkpoint, the shape in current model is torch.Size([768, 3072]).
+	size mismatch for text_model.encoder.layers.11.mlp.fc2.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.final_layer_norm.weight: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_model.final_layer_norm.bias: copying a param with shape torch.Size([1280]) from checkpoint, the shape in current model is torch.Size([768]).
+	size mismatch for text_projection.weight: copying a param with shape torch.Size([1280, 1280]) from checkpoint, the shape in current model is torch.Size([768, 768]).
+
+[2024-09-23 15:16] Prompt executed in 20.14 seconds
+[2024-09-23 15:17] got prompt
+[2024-09-23 15:17] clip missing: ['text_projection.weight']
+[2024-09-23 15:17] Requested to load FluxClipModel_
+[2024-09-23 15:17] Loading 1 new model
+[2024-09-23 15:17] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:17] C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfy\ldm\modules\attention.py:407: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:566.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=mask, dropout_p=0.0, is_causal=False)
+[2024-09-23 15:17] Requested to load ControlNetFlux
+[2024-09-23 15:17] Requested to load Flux
+[2024-09-23 15:17] Loading 2 new models
+[2024-09-23 15:17] loaded completely 0.0 6297.97265625 True
+[2024-09-23 15:17] loaded partially 15495.892578125 15492.316528320312 0
+[2024-09-23 15:17] Requested to load AutoencodingEngine
+[2024-09-23 15:17] Loading 1 new model
+[2024-09-23 15:17] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:17] loaded completely 8910.240299987792 6297.97265625 True
+[2024-09-23 15:17] loaded partially 14747.363346862792 14746.664184570312 0
+[2024-09-23 15:18] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:24<00:00,  2.18s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:24<00:00,  3.03s/it]
+[2024-09-23 15:18] Requested to load AutoencodingEngine
+[2024-09-23 15:18] Loading 1 new model
+[2024-09-23 15:18] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:18] Prompt executed in 109.71 seconds
+[2024-09-23 15:19] got prompt
+[2024-09-23 15:19] loaded partially 14454.896484375 14448.082153320312 0
+[2024-09-23 15:19] Requested to load AutoencodingEngine
+[2024-09-23 15:19] Loading 1 new model
+[2024-09-23 15:19] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:19] loaded partially 14494.507878112792 14494.20703125 0
+[2024-09-23 15:19] 
+[2024-09-23 15:19] Processing interrupted
+[2024-09-23 15:19] Prompt executed in 16.07 seconds
+[2024-09-23 15:19] got prompt
+[2024-09-23 15:19] Requested to load Flux
+[2024-09-23 15:19] Loading 1 new model
+[2024-09-23 15:19] loaded partially 15068.727001953124 15060.281372070312 0
+[2024-09-23 15:19] Requested to load AutoencodingEngine
+[2024-09-23 15:19] Loading 1 new model
+[2024-09-23 15:19] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:19] loaded partially 14565.344792175292 14556.117309570312 0
+[2024-09-23 15:20] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:24<00:00,  2.69s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:24<00:00,  3.02s/it]
+[2024-09-23 15:20] Requested to load AutoencodingEngine
+[2024-09-23 15:20] Loading 1 new model
+[2024-09-23 15:20] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:20] Prompt executed in 85.95 seconds
+[2024-09-23 15:20] got prompt
+[2024-09-23 15:20] loaded partially 14715.904203125 14715.896484375 0
+[2024-09-23 15:20] Requested to load AutoencodingEngine
+[2024-09-23 15:20] Loading 1 new model
+[2024-09-23 15:20] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:20] loaded partially 14704.100651550292 14700.164184570312 0
+[2024-09-23 15:21] 
+[2024-09-23 15:21] Processing interrupted
+[2024-09-23 15:21] Prompt executed in 12.02 seconds
+[2024-09-23 15:25] got prompt
+[2024-09-23 15:25] Failed to find C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts\LiheYoung/Depth-Anything\checkpoints\depth_anything_vitl14.pth.
+ Downloading from huggingface.co
+[2024-09-23 15:25] cacher folder is C:\Users\LIGHTM~1\AppData\Local\Temp, you can change it by custom_tmp_path in config.yaml
+[2024-09-23 15:25] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[2024-09-23 15:25] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:1212: UserWarning: `local_dir_use_symlinks` parameter is deprecated and will be ignored. The process to download files to a local folder has been updated and do not rely on symlinks anymore. You only need to pass a destination folder as`local_dir`.
+For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/download#download-files-to-local-folder.
+  warnings.warn(
+[2024-09-23 15:25] [WinError 3] The system cannot find the path specified: 'C:\\Users\\LIGHTM~1\\AppData\\Local\\Temp\\ckpts'
+[2024-09-23 15:25] model_path is C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts\LiheYoung\Depth-Anything\checkpoints\depth_anything_vitl14.pth
+[2024-09-23 15:25] using MLP layer as FFN
+[2024-09-23 15:25] C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\src\custom_controlnet_aux\depth_anything\__init__.py:42: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path, map_location="cpu"))
+[2024-09-23 15:25] loaded partially 14812.439294525146 14808.199340820312 0
+[2024-09-23 15:25] Requested to load AutoencodingEngine
+[2024-09-23 15:25] Loading 1 new model
+[2024-09-23 15:25] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:25] loaded partially 14979.272526550292 14970.252075195312 0
+[2024-09-23 15:25] loaded partially 6064.588810729981 6063.896484375 0
+[2024-09-23 15:26] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  1.97s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  2.29s/it]
+[2024-09-23 15:26] Requested to load AutoencodingEngine
+[2024-09-23 15:26] Loading 1 new model
+[2024-09-23 15:26] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:26] Prompt executed in 86.76 seconds
+[2024-09-23 15:26] got prompt
+[2024-09-23 15:26] model_path is C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts\LiheYoung/Depth-Anything\checkpoints\depth_anything_vitl14.pth
+[2024-09-23 15:26] using MLP layer as FFN
+[2024-09-23 15:26] loaded partially 14711.7850625 14711.783203125 0
+[2024-09-23 15:26] loaded partially 5929.5194375 5929.517578125 0
+[2024-09-23 15:26] Requested to load AutoencodingEngine
+[2024-09-23 15:26] Loading 1 new model
+[2024-09-23 15:26] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:26] loaded partially 14971.374089050292 14970.252075195312 0
+[2024-09-23 15:26] loaded partially 5912.633732604981 5912.33203125 0
+[2024-09-23 15:27] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:02<00:00,  1.86s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:02<00:00,  2.24s/it]
+[2024-09-23 15:27] Requested to load AutoencodingEngine
+[2024-09-23 15:27] Loading 1 new model
+[2024-09-23 15:27] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:27] Prompt executed in 68.35 seconds
+[2024-09-23 15:33] got prompt
+[2024-09-23 15:33] model_path is C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts\LiheYoung/Depth-Anything\checkpoints\depth_anything_vitl14.pth
+[2024-09-23 15:33] using MLP layer as FFN
+[2024-09-23 15:33] loaded partially 14650.165921875 14649.884765625 0
+[2024-09-23 15:33] loaded partially 5912.6131875 5912.33203125 0
+[2024-09-23 15:33] Requested to load AutoencodingEngine
+[2024-09-23 15:33] Loading 1 new model
+[2024-09-23 15:33] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:33] loaded partially 15101.393620300292 15096.293090820312 0
+[2024-09-23 15:33] loaded partially 5917.432560729981 5916.837890625 0
+[2024-09-23 15:34] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  1.95s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  2.31s/it]
+[2024-09-23 15:34] Requested to load AutoencodingEngine
+[2024-09-23 15:34] Loading 1 new model
+[2024-09-23 15:34] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:34] Prompt executed in 70.53 seconds
+[2024-09-23 15:36] got prompt
+[2024-09-23 15:36] Requested to load FluxClipModel_
+[2024-09-23 15:36] Loading 1 new model
+[2024-09-23 15:36] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:36] loaded partially 15787.52334375 15780.339965820312 0
+[2024-09-23 15:36] loaded partially 5924.021268554687 5919.849609375 0
+[2024-09-23 15:36] Requested to load AutoencodingEngine
+[2024-09-23 15:36] Loading 1 new model
+[2024-09-23 15:37] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:37] loaded partially 14997.899479675292 14988.257934570312 0
+[2024-09-23 15:37] loaded partially 5929.491154479981 5919.849609375 0
+[2024-09-23 15:38] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  1.86s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:04<00:00,  2.30s/it]
+[2024-09-23 15:38] Requested to load AutoencodingEngine
+[2024-09-23 15:38] Loading 1 new model
+[2024-09-23 15:38] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:38] Prompt executed in 74.95 seconds
+[2024-09-23 15:41] got prompt
+[2024-09-23 15:41] Requested to load FluxClipModel_
+[2024-09-23 15:41] Loading 1 new model
+[2024-09-23 15:41] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:41] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 15:42] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:50<00:00,  2.03s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:50<00:00,  1.81s/it]
+[2024-09-23 15:42] Requested to load AutoencodingEngine
+[2024-09-23 15:42] Loading 1 new model
+[2024-09-23 15:42] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:42] Prompt executed in 64.37 seconds
+[2024-09-23 15:42] got prompt
+[2024-09-23 15:42] Requested to load FluxClipModel_
+[2024-09-23 15:42] Loading 1 new model
+[2024-09-23 15:42] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:42] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 15:43] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:11<00:00,  2.21s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:11<00:00,  2.54s/it]
+[2024-09-23 15:43] Requested to load AutoencodingEngine
+[2024-09-23 15:43] Loading 1 new model
+[2024-09-23 15:43] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:43] Prompt executed in 81.42 seconds
+[2024-09-23 15:43] got prompt
+[2024-09-23 15:43] Prompt executed in 0.01 seconds
+[2024-09-23 15:46] got prompt
+[2024-09-23 15:46] Requested to load FluxClipModel_
+[2024-09-23 15:46] Loading 1 new model
+[2024-09-23 15:46] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:46] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 15:47] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:45<00:00,  1.65s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:45<00:00,  1.63s/it]
+[2024-09-23 15:47] Requested to load AutoencodingEngine
+[2024-09-23 15:47] Loading 1 new model
+[2024-09-23 15:47] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 15:47] Prompt executed in 56.04 seconds
+[2024-09-23 15:47] got prompt
+[2024-09-23 15:47] Prompt executed in 0.00 seconds
+[2024-09-23 15:58] got prompt
+[2024-09-23 15:58] Prompt executed in 0.00 seconds
+[2024-09-23 15:58] got prompt
+[2024-09-23 15:58] Prompt executed in 0.00 seconds
+[2024-09-23 15:59] got prompt
+[2024-09-23 15:59] Requested to load FluxClipModel_
+[2024-09-23 15:59] Loading 1 new model
+[2024-09-23 15:59] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 15:59] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:00] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:50<00:00,  2.09s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:50<00:00,  1.80s/it]
+[2024-09-23 16:00] Requested to load AutoencodingEngine
+[2024-09-23 16:00] Loading 1 new model
+[2024-09-23 16:00] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:00] Prompt executed in 60.94 seconds
+[2024-09-23 16:04] got prompt
+[2024-09-23 16:04] Requested to load FluxClipModel_
+[2024-09-23 16:04] Loading 1 new model
+[2024-09-23 16:04] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:05] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:05] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.35s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.42s/it]
+[2024-09-23 16:05] Requested to load AutoencodingEngine
+[2024-09-23 16:05] Loading 1 new model
+[2024-09-23 16:05] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:05] Prompt executed in 50.72 seconds
+[2024-09-23 16:08] got prompt
+[2024-09-23 16:08] loaded partially 20518.28115625 20518.001953125 0
+[2024-09-23 16:09] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.39s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.40s/it]
+[2024-09-23 16:09] Requested to load AutoencodingEngine
+[2024-09-23 16:09] Loading 1 new model
+[2024-09-23 16:09] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:09] Prompt executed in 41.20 seconds
+[2024-09-23 16:12] got prompt
+[2024-09-23 16:12] Requested to load FluxClipModel_
+[2024-09-23 16:12] Loading 1 new model
+[2024-09-23 16:12] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:13] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:14] got prompt
+[2024-09-23 16:16] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [02:57<00:00,  1.74s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [02:57<00:00,  6.33s/it]
+[2024-09-23 16:16] Requested to load AutoencodingEngine
+[2024-09-23 16:16] Loading 1 new model
+[2024-09-23 16:16] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:16] Prompt executed in 188.22 seconds
+[2024-09-23 16:16] Requested to load FluxClipModel_
+[2024-09-23 16:16] Loading 1 new model
+[2024-09-23 16:16] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:16] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:17] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:48<00:00,  1.60s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:48<00:00,  1.75s/it]
+[2024-09-23 16:17] Requested to load AutoencodingEngine
+[2024-09-23 16:17] Loading 1 new model
+[2024-09-23 16:17] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:17] Prompt executed in 58.71 seconds
+[2024-09-23 16:18] got prompt
+[2024-09-23 16:18] Requested to load FluxClipModel_
+[2024-09-23 16:18] Loading 1 new model
+[2024-09-23 16:18] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:18] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:18] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.33s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.39s/it]
+[2024-09-23 16:18] Requested to load AutoencodingEngine
+[2024-09-23 16:18] Loading 1 new model
+[2024-09-23 16:18] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:18] Prompt executed in 49.26 seconds
+[2024-09-23 16:20] got prompt
+[2024-09-23 16:20] loaded partially 20695.15225 20695.072265625 0
+[2024-09-23 16:21] got prompt
+[2024-09-23 16:21] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.37s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.40s/it]
+[2024-09-23 16:21] Requested to load AutoencodingEngine
+[2024-09-23 16:21] Loading 1 new model
+[2024-09-23 16:21] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:21] Prompt executed in 41.46 seconds
+[2024-09-23 16:21] Requested to load FluxClipModel_
+[2024-09-23 16:21] Loading 1 new model
+[2024-09-23 16:21] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:21] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:22] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:51<00:00,  1.89s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:51<00:00,  1.83s/it]
+[2024-09-23 16:22] Requested to load AutoencodingEngine
+[2024-09-23 16:22] Loading 1 new model
+[2024-09-23 16:22] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:22] Prompt executed in 61.69 seconds
+[2024-09-23 16:22] got prompt
+[2024-09-23 16:22] loaded partially 20686.89053125 20683.441528320312 0
+[2024-09-23 16:23] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.37s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.38s/it]
+[2024-09-23 16:23] Requested to load AutoencodingEngine
+[2024-09-23 16:23] Loading 1 new model
+[2024-09-23 16:23] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:23] Prompt executed in 40.92 seconds
+[2024-09-23 16:23] got prompt
+[2024-09-23 16:23] loaded partially 20277.56240625 20277.544921875 0
+[2024-09-23 16:24] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.42s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.41s/it]
+[2024-09-23 16:24] Requested to load AutoencodingEngine
+[2024-09-23 16:24] Loading 1 new model
+[2024-09-23 16:24] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:24] Prompt executed in 41.29 seconds
+[2024-09-23 16:24] got prompt
+[2024-09-23 16:24] Requested to load FluxClipModel_
+[2024-09-23 16:24] Loading 1 new model
+[2024-09-23 16:25] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:25] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:28] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [03:03<00:00,  5.94s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [03:03<00:00,  6.55s/it]
+[2024-09-23 16:28] Requested to load AutoencodingEngine
+[2024-09-23 16:28] Loading 1 new model
+[2024-09-23 16:28] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:28] Prompt executed in 194.40 seconds
+[2024-09-23 16:29] got prompt
+[2024-09-23 16:29] loaded partially 20869.46084375 20869.119140625 0
+[2024-09-23 16:30] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.36s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.36s/it]
+[2024-09-23 16:30] Requested to load AutoencodingEngine
+[2024-09-23 16:30] Loading 1 new model
+[2024-09-23 16:30] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:30] Prompt executed in 40.04 seconds
+[2024-09-23 16:30] got prompt
+[2024-09-23 16:30] Requested to load FluxClipModel_
+[2024-09-23 16:30] Loading 1 new model
+[2024-09-23 16:30] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:30] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:33] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [02:54<00:00,  6.06s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [02:54<00:00,  6.24s/it]
+[2024-09-23 16:33] Requested to load AutoencodingEngine
+[2024-09-23 16:33] Loading 1 new model
+[2024-09-23 16:33] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:33] Prompt executed in 185.69 seconds
+[2024-09-23 16:33] got prompt
+[2024-09-23 16:33] Requested to load FluxClipModel_
+[2024-09-23 16:33] Loading 1 new model
+[2024-09-23 16:33] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:34] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:35] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:10<00:00,  2.07s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [01:10<00:00,  2.52s/it]
+[2024-09-23 16:35] Requested to load AutoencodingEngine
+[2024-09-23 16:35] Loading 1 new model
+[2024-09-23 16:35] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:35] Prompt executed in 96.49 seconds
+[2024-09-23 16:36] got prompt
+[2024-09-23 16:36] loaded partially 20413.87490625 20413.353637695312 0
+[2024-09-23 16:37] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.40s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.44s/it]
+[2024-09-23 16:37] Requested to load AutoencodingEngine
+[2024-09-23 16:37] Loading 1 new model
+[2024-09-23 16:37] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:37] Prompt executed in 42.27 seconds
+[2024-09-23 16:38] got prompt
+[2024-09-23 16:38] loaded partially 20608.39053125 20605.418090820312 0
+[2024-09-23 16:39] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.37s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.38s/it]
+[2024-09-23 16:39] Requested to load AutoencodingEngine
+[2024-09-23 16:39] Loading 1 new model
+[2024-09-23 16:39] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:39] Prompt executed in 40.70 seconds
+[2024-09-23 16:40] got prompt
+[2024-09-23 16:40] Requested to load FluxClipModel_
+[2024-09-23 16:40] Loading 1 new model
+[2024-09-23 16:40] loaded completely 0.0 9319.23095703125 True
+[2024-09-23 16:41] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:41] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.33s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.38s/it]
+[2024-09-23 16:41] Requested to load AutoencodingEngine
+[2024-09-23 16:41] Loading 1 new model
+[2024-09-23 16:41] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:41] Prompt executed in 70.72 seconds
+[2024-09-23 16:44] got prompt
+[2024-09-23 16:44] loaded partially 20678.21084375 20678.1796875 0
+[2024-09-23 16:45] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.37s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:38<00:00,  1.39s/it]
+[2024-09-23 16:45] Requested to load AutoencodingEngine
+[2024-09-23 16:45] Loading 1 new model
+[2024-09-23 16:45] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:45] Prompt executed in 41.08 seconds
+[2024-09-23 16:46] got prompt
+[2024-09-23 16:46] loaded partially 21704.371 21703.763793945312 0
+[2024-09-23 16:49] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [03:38<00:00,  4.90s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [03:38<00:00,  7.82s/it]
+[2024-09-23 16:49] Requested to load AutoencodingEngine
+[2024-09-23 16:49] Loading 1 new model
+[2024-09-23 16:49] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 16:49] Prompt executed in 221.88 seconds
+[2024-09-23 17:00] got prompt
+[2024-09-23 17:00] loaded partially 20623.74209375 20623.412231445312 0
+[2024-09-23 17:01] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.41s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.46s/it]
+[2024-09-23 17:01] Requested to load AutoencodingEngine
+[2024-09-23 17:01] Loading 1 new model
+[2024-09-23 17:01] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:01] Prompt executed in 42.91 seconds
+[2024-09-23 17:01] got prompt
+[2024-09-23 17:01] loaded partially 20624.67178125 20624.54296875 0
+[2024-09-23 17:02] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.41s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:39<00:00,  1.42s/it]
+[2024-09-23 17:02] Requested to load AutoencodingEngine
+[2024-09-23 17:02] Loading 1 new model
+[2024-09-23 17:02] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:02] Prompt executed in 41.97 seconds
+[2024-09-23 17:02] got prompt
+[2024-09-23 17:02] loaded partially 20676.98428125 20676.673828125 0
+[2024-09-23 17:03] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.41s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.44s/it]
+[2024-09-23 17:03] Requested to load AutoencodingEngine
+[2024-09-23 17:03] Loading 1 new model
+[2024-09-23 17:03] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:03] Prompt executed in 42.34 seconds
+[2024-09-23 17:04] got prompt
+[2024-09-23 17:04] loaded partially 20393.27725 20389.347778320312 0
+[2024-09-23 17:05] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.45s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.44s/it]
+[2024-09-23 17:05] Requested to load AutoencodingEngine
+[2024-09-23 17:05] Loading 1 new model
+[2024-09-23 17:05] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:05] Prompt executed in 42.44 seconds
+[2024-09-23 17:11] got prompt
+[2024-09-23 17:11] loaded partially 20148.371 20147.754028320312 0
+[2024-09-23 17:12] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.44s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.45s/it]
+[2024-09-23 17:12] Requested to load AutoencodingEngine
+[2024-09-23 17:12] Loading 1 new model
+[2024-09-23 17:12] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:12] Prompt executed in 42.64 seconds
+[2024-09-23 17:20] got prompt
+[2024-09-23 17:20] loaded partially 20303.52334375 20303.4375 0
+[2024-09-23 17:20] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.51s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 28/28 [00:40<00:00,  1.45s/it]
+[2024-09-23 17:20] Requested to load AutoencodingEngine
+[2024-09-23 17:20] Loading 1 new model
+[2024-09-23 17:20] loaded completely 0.0 159.87335777282715 True
+[2024-09-23 17:20] Prompt executed in 42.92 seconds

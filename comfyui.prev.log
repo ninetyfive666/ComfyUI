@@ -1,51 +1,58 @@
 ## ComfyUI-Manager: installing dependencies done.
-[2024-08-05 10:19] ** ComfyUI startup time: 2024-08-05 10:19:27.486241
-[2024-08-05 10:19] ** Platform: Windows
-[2024-08-05 10:19] ** Python version: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
-[2024-08-05 10:19] ** Python executable: C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\python.exe
-[2024-08-05 10:19] ** ComfyUI Path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI
-[2024-08-05 10:19] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
-[2024-08-05 10:19] 
+[2024-09-23 14:55] ** ComfyUI startup time: 2024-09-23 14:55:30.597993
+[2024-09-23 14:55] ** Platform: Windows
+[2024-09-23 14:55] ** Python version: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+[2024-09-23 14:55] ** Python executable: C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\python.exe
+[2024-09-23 14:55] ** ComfyUI Path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI
+[2024-09-23 14:55] ** Log path: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\comfyui.log
+[2024-09-23 14:55] 
 Prestartup times for custom nodes:
-[2024-08-05 10:19]    2.9 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-08-05 10:19] 
+[2024-09-23 14:55]    2.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-09-23 14:55] 
 Total VRAM 24576 MB, total RAM 130987 MB
-[2024-08-05 10:19] pytorch version: 2.5.0.dev20240726+cu124
-[2024-08-05 10:19] Set vram state to: NORMAL_VRAM
-[2024-08-05 10:19] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
-[2024-08-05 10:19] Using pytorch cross attention
-[2024-08-05 10:19] [Prompt Server] web root: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\web
-[2024-08-05 10:19] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+[2024-09-23 14:55] pytorch version: 2.5.0.dev20240726+cu124
+[2024-09-23 14:55] Set vram state to: NORMAL_VRAM
+[2024-09-23 14:55] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2024-09-23 14:55] Using pytorch cross attention
+[2024-09-23 14:55] [Prompt Server] web root: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\web
+[2024-09-23 14:55] C:\Users\Lightmapper\AppData\Local\Programs\Python\Python312\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
   @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
-[2024-08-05 10:19] ### Loading: ComfyUI-Manager (V2.48.2)
-[2024-08-05 10:19] ### ComfyUI Revision: 2436 [0a594c48] | Released on '2024-07-29'
-[2024-08-05 10:19] 
+[2024-09-23 14:55] ### Loading: ComfyUI-Manager (V2.48.5)
+[2024-09-23 14:55] ### ComfyUI Revision: 2728 [04ba2d0e] | Released on '2024-09-17'
+[2024-09-23 14:55] 
 Import times for custom nodes:
-[2024-08-05 10:19]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\websocket_image_save.py
-[2024-08-05 10:19]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SD3-nodes
-[2024-08-05 10:19]    0.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-08-05 10:19] 
-[2024-08-05 10:19] Starting server
+[2024-09-23 14:55]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-09-23 14:55]    0.0 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SD3-nodes
+[2024-09-23 14:55]    0.3 seconds: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-09-23 14:55] 
+[2024-09-23 14:55] Starting server
 
-[2024-08-05 10:19] To see the GUI go to: http://127.0.0.1:8188
-[2024-08-05 10:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-08-05 10:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-08-05 10:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
-[2024-08-05 10:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-08-05 10:19] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-08-05 10:20] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
-[2024-08-05 10:21] Update ComfyUI
-[2024-08-05 10:21] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
-[2024-08-05 10:21] Start updating...[2KUpdating: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager[2KUpdating: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-SD3-nodesUpdated: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager
-[2024-08-05 10:21] [2KUpdate done.
+[2024-09-23 14:55] To see the GUI go to: http://127.0.0.1:8188
+[2024-09-23 14:55] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-09-23 14:55] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-09-23 14:55] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-09-23 14:55] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-09-23 14:55] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-09-23 14:55] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: C:\Users\Lightmapper\Documents\GitHub\ComfyUI\custom_nodes\ComfyUI-Manager\custom-node-list.json [DONE]
+[2024-09-23 14:59] FETCH DATA from: https://github.com/ltdrdata/ComfyUI-Manager/raw/main/custom-node-list.json [DONE]
+[2024-09-23 14:59] Install custom node 'ComfyUI's ControlNet Auxiliary Preprocessors'
+[2024-09-23 14:59] Install: ['https://github.com/Fannovel16/comfyui_controlnet_aux']
+[2024-09-23 14:59] Download: git clone 'https://github.com/Fannovel16/comfyui_controlnet_aux'
+[2024-09-23 14:59] [!] 
+[2024-09-23 14:59] 0it [00:00, ?it/s]100%|██████████| 1506.0/1506.0 [00:00<00:00, 2336.46it/s]
+[2024-09-23 14:59] 100%|██████████| 1506.0/1506.0 [00:00<00:00, 2336.46it/s]
+[2024-09-23 14:59] 100%|██████████| 510.0/510.0 [00:00<00:00, 748.19it/s]
+[2024-09-23 14:59] 100%|██████████| 510.0/510.0 [00:00<00:00, 748.19it/s]
+[2024-09-23 14:59] 100%|██████████| 4943.0/4943.0 [00:02<00:00, 1856.06it/s]
+[2024-09-23 14:59] 100%|██████████| 4943.0/4943.0 [00:02<00:00, 1856.06it/s]
+[2024-09-23 14:59] 100%|██████████| 2640.0/2640.0 [00:02<00:00, 977.89it/s]
+[2024-09-23 14:59] 100%|██████████| 2640.0/2640.0 [00:02<00:00, 977.89it/s]
+[2024-09-23 14:59] 100%|██████████| 2640.0/2640.0 [00:04<00:00, 644.10it/s]
+[2024-09-23 14:59] [2024-09-23 14:59] Install: pip packages
+[2024-09-23 14:59] Installation was successful.
+[2024-09-23 14:59] After restarting ComfyUI, please refresh the browser.
